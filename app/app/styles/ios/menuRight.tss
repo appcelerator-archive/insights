@@ -1,0 +1,232 @@
+"#overlayBtnContainer" : {
+    height: 60,
+    width: 135,
+    top: 0,
+    right: 0
+},
+
+"#moreBtnContainer" : {
+    top: 46,
+    width: 19,
+    height: 3,
+    right: 40,
+    touchEnabled: false
+},
+
+"#moreBtnLight" : {
+    width: 19,
+    height: 3,
+    backgroundImage: "nav/more-icon-light.png",
+    touchEnabled: false
+},
+
+"#moreBtnDark" : {
+    width: 19,
+    height: 3,
+    backgroundImage: "nav/more-icon-dark.png",
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+"#moreBtnTouch" : {
+    width: 19,
+    height: 3,
+    backgroundImage: "nav/more-icon-touch@2x.png",
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+"#logoRed" : {
+    width: 23,
+    height: 20,
+    backgroundImage: "nav/appc-logo-red.png",
+    top: 38,
+    right: 68,
+    touchEnabled: false
+},
+
+"#logoWhite" : {
+    width: 23,
+    height: 20,
+    backgroundImage: "nav/appc-logo-white.png",
+    top: 38,
+    right: 68,
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+"#helpBtnContainer" : {
+    width: 44,
+    height: Ti.UI.FILL,
+    bottom: 0,
+    left: 0,
+    bubbleParent: false  
+},
+
+"#helpMenuHelper" : {
+    width: 20,
+    height: 20,
+    right: 16,
+    bottom: -3,
+    touchEnabled: false 
+},
+
+"#helpLight" : {
+    width: 20,
+    height: 20,
+    backgroundImage: "nav/help-icon-light.png",
+    right: 16,
+    bottom: 2,
+    touchEnabled: false
+},
+
+"#helpDark" : {
+    width: 20,
+    height: 20,
+    backgroundImage: "nav/help-icon-dark.png",
+    right: 16,
+    opacity: 0.0,
+    bottom: 2,
+    touchEnabled: false
+},
+
+"#parentContainer" : {
+    width: 335,
+    right: -402,
+    height: Ti.UI.FILL,
+    backgroundImage: "nav/bg.png"
+},
+
+"#menu" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL
+},
+
+"#headerContainer" : {
+    height: 95,
+    left: 0,
+    right: 0,
+    top: 0,
+    backgroundColor: "#1a1a1a"
+},
+
+"#headerContentContainer" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    opacity: 0.0,
+    touchEnabled: false,
+    right: 10
+},
+
+"#backBtnContainer" : {
+    width: 14,
+    height: 28,
+    top: 34,
+    right: 43
+},
+
+"#backBtn" : {
+    width: 14,
+    height: 28,
+    backgroundImage: "nav/back-icon-light-right.png"
+},
+
+"#backBtnTouch" : {
+    width: 14,
+    height: 28,
+    backgroundImage: "nav/back-icon-right-touch.png",
+    opacity: 0.0
+},
+
+"#logo" : {
+    width: 23,
+    height: 20,
+    left: 40,
+    top: 38,
+    backgroundImage: "nav/appc-logo-red.png"
+},
+
+"#appcNameLbl" : {
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    top: 40,
+    left: 73,
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 19
+    },
+    color: "#f2f2f2",
+    text: "Appcelerator Insights"
+},
+
+"#menuList" : {
+    top: 95,
+    left: 0,
+    width: Ti.UI.FILL,
+    bottom: 88,
+    backgroundImage: '',
+    separatorStyle:Ti.UI.iPhone.TableViewSeparatorStyle.NONE
+},
+
+"#footerContainer" : {
+    width: Ti.UI.FILL,
+    height: 88,
+    bottom: 0
+},
+
+"#footerBar" : {
+    height: 1,
+    left: 0,
+    right: 50,
+    top: 0,
+    backgroundColor: '#969696'
+},
+
+"#loginContainer" : {
+    left: 0,
+    height: 88,
+    width: 103
+},
+
+"#loginLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    text: "Login",
+    color: "#f2f2f2",
+    touchEnabled: false,
+    height: Ti.UI.SIZE,
+    right: 20,
+    left: 44,
+    textAlign: "center",
+    top: 29
+},
+
+"#loginBg" : {
+    backgroundImage: "nav/demo-bg.png",
+    width: 103,
+    height: 88,
+    touchEnabled: false
+},
+
+"#loginBgTouch" : {
+    backgroundImage: "nav/demo-bg-touch.png",
+    width: 103,
+    height: 88,
+    touchEnabled: false,
+    opacity: 0.0
+},
+
+"#currentUsername" : {
+    text: 'to view your production apps...',
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    height: Ti.UI.SIZE,
+    right: 50,
+    color: '#333',
+    left: 100,
+    top: 29
+}

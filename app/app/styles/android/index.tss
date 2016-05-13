@@ -1,0 +1,7 @@
+"#appWin" : {
+    fullscreen: true,
+    navBarHidden: true,
+    backgroundColor: "#e6e6e6",
+    exitOnClose: true,
+    orientationModes: [Ti.UI.LANDSCAPE_RIGHT, Ti.UI.LANDSCAPE_LEFT]
+}

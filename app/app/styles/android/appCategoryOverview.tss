@@ -1,0 +1,188 @@
+"#wash" : {
+    backgroundImage: "/images/overview/wash.png",
+    opacity: 0.0,
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    visible: false
+},
+
+"#orbContainer" : {
+    width: Ti.UI.FILL
+},
+
+"#overviewContainer" : {
+    left: 0,
+    right: 0,
+},
+
+"#performanceLblContainer" : {
+    top: 0,
+    left: 0,
+    right: 0
+},
+
+"#lastWeekLbl" : {
+    text: "0",
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    color: "#333",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#thisWeekPercentLbl" : {
+    text: "0%",
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    color: "#ccc",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#thisWeekLbl" : {
+    text: "0",
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    color: "#333",
+    width: 200, // #workaround; no scale, but should be after this issues is addressed
+    textAlign: "right", // #workaround
+    height: Ti.UI.SIZE,
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#lastWeekBg" : {
+    left: 0,
+    backgroundImage: "/images/overview/week-label-bg.png"
+},
+
+"#staticLastWeekLbl" : {
+    text: "Last Week",
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    color: "#b2b2b2",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    includeFontPadding: false // #WORKAROUND    
+},
+
+"#lastWeekBar" : {
+    height: 1,
+    left: 0,
+    right: 0,
+    backgroundColor: "#b2b2b2"  
+},
+
+"#thisWeekBarContainer" : {
+    width: 0,
+    right: 0    
+},
+
+"#thisWeekBar" : {
+    height: 1,
+    left: 0,
+    right: 0
+},
+
+"#thisWeekBarBlip" : {
+    width: 5,
+    height: 4,
+    left: 0
+},
+
+"#thisWeekBg" : {
+    right: 0,
+    backgroundImage: "/images/overview/week-label-bg.png"
+},
+
+"#staticThisWeekLbl" : {
+    text: "This Week",
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    color: "#b2b2b2",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    includeFontPadding: false // #WORKAROUND    
+},
+
+"#staticThisWeekLblIncrease" : {
+    text: "This Week",
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    color: "#00b0ff",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    includeFontPadding: false // #WORKAROUND    
+},
+
+"#staticThisWeekLblDecrease" : {
+    text: "This Week",
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    color: "#ff0080",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    includeFontPadding: false // #WORKAROUND    
+},
+
+"#categoryHeaderContainer" : {
+    left: 0,
+    right: 0
+},
+
+"#catContainer" : {
+    layout: 'horizontal',
+    width: Ti.UI.SIZE,
+    touchEnabled: false
+},
+
+"#catIcon" : {
+    backgroundImage: "/images/overview/acquisition-icon-bordered.png"
+},
+
+"#catLbl" : {
+    text: 'Acquisition',
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    color: "#333",
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#catMetricBg" : {
+    backgroundImage: "/images/overview/acquisition-metric-bg.png",
+    width: Ti.UI.SIZE,
+    layout: 'horizontal'
+},
+
+"#catMetricLbl" : {
+    text: 'Installs',
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    color: "#f2f2f2",
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#catMetricLblRange" : {
+    text: 'w/w',
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    color: "#b7ff52",
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    includeFontPadding: false // #WORKAROUND
+}

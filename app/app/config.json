@@ -1,0 +1,16 @@
+{
+	"global": {
+        "demo": {
+            "name": "Appcelerator Demo App",
+            "guid": "4ac81c71-7c4a-4903-96d2-ecd59dfd286c"
+        }
+    }, 
+	"env:development": {}, 
+	"env:test": {}, 
+	"env:production": {}, 
+	"os:android": {},
+	"os:blackberry": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"dependencies": {}
+}

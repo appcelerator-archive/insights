@@ -1,0 +1,104 @@
+"#parentContainer" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+"#scrollable" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL
+},
+
+"#menuContainer" : {
+    opacity: 0.0,
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    bubbleParent: false,
+    visible: false
+},
+
+"#menuBtnRowContainer" : {
+    height: Ti.UI.FILL
+},
+
+"#contentBg" : {
+    top: 0,
+    backgroundImage: "/images/guide/content-bg.png",
+    touchEnabled: false
+},
+
+"#cardsContainer" : {
+    top: 0,
+    touchEnabled: false
+},
+
+"#navContainer" : {
+    bottom: 0,
+    backgroundImage: "/images/guide/nav-bg.png"
+},
+
+"#closeBtnContainer" : {
+    left: 0,
+    bubbleParent: false
+},
+
+"#closeBtn" : {
+    touchEnabled: false,
+    backgroundImage: "/images/guide/close-icon.png"
+},
+
+"#closeBtnTouch" : {
+    touchEnabled: false,
+    backgroundImage: "/images/guide/close-icon-touch.png",
+    opacity: 0.0
+},
+
+"#cardTitleLbl" : {
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    touchEnabled: false,
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    color: "#f2f2f2",
+    text: "Card Title"
+},
+
+"#menuBtnContainer" : {
+    right: 0,
+    bubbleParent: false
+},
+
+"#menuExpandedContainer": {
+    opacity: 0.0
+},
+
+"#menuTopBottomIcon" : {
+    backgroundImage: "/images/guide/menu-top-bottom-icon.png"
+},
+
+"#menuMiddleIcon" : {
+    backgroundImage: "/images/guide/menu-middle-icon.png"
+},
+
+"#menuPopoverHandler" : {
+    left: 0,
+    height: Ti.Platform.displayCaps.platformHeight
+},
+
+"#menuBtn" : {
+    touchEnabled: false,
+    backgroundImage: "/images/guide/menu-icon.png"
+},
+
+"#menuBtnTouch" : {
+    touchEnabled: false,
+    backgroundImage: "/images/guide/menu-icon-touch.png",
+    opacity: 0.0
+},
+
+"#pointy" : {
+    opacity: 0.0,
+    backgroundImage: "/images/guide/pointy.png"
+}

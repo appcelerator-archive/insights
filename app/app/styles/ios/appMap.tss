@@ -1,0 +1,118 @@
+"#parentView" : {
+    backgroundColor : '#e6e6e6',
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL
+},
+
+"#mapScrollView" : {
+    maxZoomScale    : 2.0,
+    minZoomScale    : 1.0,
+    width           : Ti.UI.FILL,
+    height          : Ti.UI.FILL,
+    contentHeight   : Ti.UI.SIZE,
+    contentWidth    : Ti.UI.SIZE,
+    disableBounce   : true
+},
+
+"#mapContainer" : {
+    width           : 1126,
+    height          : 845
+},
+
+"#map" : {
+    width           : Ti.UI.FILL,
+    height          : Ti.UI.FILL,
+    backgroundImage : 'map/map-bg.png'
+},
+
+"#activeSessionsContainer" : {
+    width  : 1126,
+    height : 845
+},
+
+"#sessionCountContainer" : {
+    top: 40,
+    width: Ti.UI.SIZE,
+    height: 24,
+    opacity: 0.0,
+    layout: "horizontal"
+},
+
+"#sessionCountYesterdayDescipBg" : {
+    layout: "horizontal",
+    backgroundImage: "map/count-bg.png",
+    backgroundTopCap: 5,
+    backgroundLeftCap: 5,
+    width: Ti.UI.SIZE,
+    height: Ti.UI.FILL   
+},
+
+"#sessionCountYesterdayDescipLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    width: Ti.UI.SIZE,
+    height: 12,
+    color: "#f2f2f2",
+    text: "Yesterday"
+},
+
+"#sessionCountYesterdayLbl" : {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 21
+    },
+    color: "#999",
+    text: "0 /"
+},
+
+"#sessionCountTodayDescipBg" : {
+    layout: "horizontal",
+    backgroundImage: "map/count-bg.png",
+    backgroundTopCap: 5,
+    backgroundLeftCap: 5,
+    width: Ti.UI.SIZE,
+    height: Ti.UI.FILL    
+},
+
+"#sessionCountTodayDescipLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    width: Ti.UI.SIZE,
+    height: 12,
+    color: "#f2f2f2",
+    text: "Today"
+},
+
+"#sessionCountTodayLbl" : {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 21
+    },
+    color: "#ff0080",
+    text: "0"
+},
+
+"#sessionCurrentCountContainer" : {
+    top: 40,
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE
+},
+
+"#currentSessionCountLbl" : {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 50
+    },
+    color: "#333",
+    text: "0"
+}

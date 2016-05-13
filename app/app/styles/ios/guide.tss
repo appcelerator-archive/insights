@@ -1,0 +1,139 @@
+"#parentContainer" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+"#contentContainer" : {
+    width: 335,
+    height: 530  
+},
+
+"#scrollable" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL
+},
+
+"#menuContainer" : {
+    opacity: 0.0,
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    bubbleParent: false
+},
+
+"#contentBg" : {
+    width: 335,
+    top: 0,
+    height: 480,
+    backgroundImage: "guide/content-bg.png",
+    touchEnabled: false
+},
+
+"#cardsContainer" : {
+    width: 335,
+    height: 480,
+    top: 0,
+    touchEnabled: false
+},
+
+"#navContainer" : {
+    width: 335,
+    bottom: 0,
+    height: 50,
+    backgroundImage: "guide/nav-bg.png"
+},
+
+"#closeBtnContainer" : {
+    left: 0,
+    height: 50,
+    width: 50,
+    bubbleParent: false
+},
+
+"#closeBtn" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "guide/close-icon.png"
+},
+
+"#closeBtnTouch" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "guide/close-icon-touch.png",
+    opacity: 0.0
+},
+
+"#cardTitleLbl" : {
+    left: 50,
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    touchEnabled: false,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    },
+    color: "#f2f2f2",
+    text: "Card Title"
+},
+
+"#menuBtnContainer" : {
+    right: 0,
+    height: 50,
+    width: 50,
+    bubbleParent: false
+},
+
+"#menuIconContainer" : {
+    width: 50,
+    height: 50
+},
+
+"#menuExpandedContainer": {
+    opacity: 0.0,
+    width: 40,
+    height: 20
+},
+
+"#menuTopBottomIcon" : {
+    backgroundImage: 'guide/menu-top-bottom-icon.png',
+    width: 20,
+    height: 20
+},
+
+"#menuMiddleIcon" : {
+    backgroundImage: 'guide/menu-middle-icon.png',
+    width: 20,
+    height: 20
+},
+
+"#menuPopoverHandler" : {
+    left: 0,
+    width: 58,
+    height: Ti.Platform.displayCaps.platformHeight
+},
+
+"#menuBtn" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "guide/menu-icon.png"
+},
+
+"#menuBtnTouch" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "guide/menu-icon-touch.png",
+    opacity: 0.0
+},
+
+"#pointy" : {
+    width: 90,
+    height: 90,
+    left: 807,
+    opacity: 0.0,
+    backgroundImage: 'guide/pointy.png'
+}

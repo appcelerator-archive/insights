@@ -1,0 +1,9 @@
+<Alloy>
+    <View id="parentView">
+        <ScrollView id="metricScrollView">
+            <View id="metricContainer" />
+        </ScrollView>
+        <View id="leftShadow" />
+        <View id="rightShadow" />
+    </View>    
+</Alloy>

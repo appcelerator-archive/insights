@@ -1,0 +1,20 @@
+"#toggleContainer" : {
+    touchEnabled: false
+},
+
+"#centerIndicator" : {
+    backgroundImage: "/images/detail/center-indicator.png",
+    touchEnabled: false,
+    opacity: 0.0
+},
+
+"#toggleBtn" : {
+    backgroundImage: "/images/detail/toggle-btn.png",
+    touchEnabled: false
+},
+
+"#toggleBtnTouch" : {
+    backgroundImage: "/images/detail/toggle-btn-touch.png",
+    touchEnabled: false,
+    opacity: 0.0
+}

@@ -1,0 +1,29 @@
+<Alloy>
+    <Window id="parentContainer">
+        <View id="webViewContainer" />
+        <View id="navContainer">
+            <View id="blurBg" />
+            <!-- <Module id="ti.insights" module="ti.insights" method="createBlurView" id="blurBg" /> #ATEMP -->
+            <View id="closeBtnContainer">
+                <View id="closeBtn" />
+                <View id="closeBtnTouch" />
+            </View>
+            <Label id="pageTitleLbl" />
+            <View id="backBtnContainer">
+                <View id="backBtn" />
+                <View id="backBtnTouch" />
+                <View id="backBtnDisabled" />
+            </View>
+            <View id="refreshBtnContainer">
+                <View id="refreshBtn" />
+                <View id="refreshBtnTouch" />
+                <View id="refreshBtnDisabled" />
+            </View>
+            <View id="forwardBtnContainer">
+                <View id="forwardBtn" />
+                <View id="forwardBtnTouch" />
+                <View id="forwardBtnDisabled" />
+            </View>
+        </View>
+    </Window>
+</Alloy>

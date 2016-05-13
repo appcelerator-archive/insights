@@ -1,0 +1,106 @@
+"#parentContainer" : {
+    top: 0
+},
+
+"#background" : {
+    backgroundImage: "/images/general/clock-bg.png",
+    width: Ti.UI.FILL,
+    top: -35,
+    height: 35,
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+"Label" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#lightTimeContainer" : {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    layout: "horizontal",
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+"#darkTimeContainer" : {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    layout: "horizontal",
+    touchEnabled: false
+},
+
+".contentLight" : {
+    color: "#999"
+},
+
+".contentDark" : {
+    color: "#666"
+},
+
+".divLight" : {
+    color: "#666"
+},
+
+".divDark" : {
+    color: "#999"
+},
+
+"#dateLightLbl" : {
+    text: "Jan 01"
+},
+
+"#dateDarkLbl" : {
+    text: "Jan 01"
+},
+
+"#timeHourLightLbl" : {
+    text: "00"
+},
+
+"#timeHourDarkLbl" : {
+    text: "00"
+},
+
+"#timeDivLight01Lbl" : {
+    text: ":"
+},
+
+"#timeDivDark01Lbl" : {
+    text: ":"
+},
+
+"#timeMinuteLightLbl" : {
+    text: "00"
+},
+
+"#timeMinuteDarkLbl" : {
+    text: "00"
+},
+
+"#timeDivLight02Lbl" : {
+    text: ":"
+},
+
+"#timeDivDark02Lbl" : {
+    text: ":"
+},
+
+"#timeSecondLightLbl" : {
+    text: "00"
+},
+
+"#timeSecondDarkLbl" : {
+    text: "00"
+},
+
+"#timeFormatLightLbl" : {
+    text: "AM UTC"
+},
+
+"#timeFormatDarkLbl" : {
+    text: "AM UTC"
+}

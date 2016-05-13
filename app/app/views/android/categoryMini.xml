@@ -1,0 +1,42 @@
+<Alloy>
+    <View id="parentView">
+        <View id="orbsContainer">
+            <View id="orbAcquisitionContainer" class="orbContainer">
+                <View id="orbAcquisitionView" class="orbView" />
+            </View>
+            <View id="orbSpacer01" />
+            <View id="orbEngagementContainer" class="orbContainer">
+                <View id="orbEngagementView" class="orbView" />
+            </View>
+            <View id="orbSpacer02" />
+            <View id="orbRetentionContainer" class="orbContainer">
+                <View id="orbRetentionView" class="orbView" />
+            </View>
+            <View id="orbSpacer03" />
+            <View id="orbQualityContainer" class="orbContainer">
+                <View id="orbQualityView" class="orbView" />
+            </View>
+        </View>
+        <View id="weekCompareContainer">
+            <!-- <Label id="lastWeekLbl" /> -->
+            <View id="barContainer">
+                <View id="lastWeekBarView" />
+                <View id="thisWeekBarView" />
+            </View>
+            <!-- <Label id="thisWeekLbl" /> -->
+        </View>
+        <View id="thisWeekContainer">
+            <View id="primaryMetricContainer">
+                <View id="primaryMetricSpacer01" class="spacers" />
+                <Label id="primaryMetricLbl" />
+                <View id="primaryMetricSpacer02" class="spacers" />
+            </View>
+            <View id="thisWeekSpacer01" class="spacers" />
+            <Label id="thisWeekTotalLbl" />
+            <View id="thisWeekSpacer02" class="spacers" />
+            <Label id="dividerLbl" />
+            <View id="thisWeekSpacer03" class="spacers" />
+            <Label id="percentLbl" />
+        </View>
+    </View>
+</Alloy>

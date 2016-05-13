@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* TiInsightsModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* TiInsightsModule.h */; };
+		24DD6CFA1134B3F500162E58 /* TiInsightsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiInsightsModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* TiInsightsModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiInsightsModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* TiInsightsModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiInsightsModuleAssets.m */; };
+		261B60FE1809AA2800F3F409 /* constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 261B60FD1809AA2800F3F409 /* constants.h */; };
+		2678AFA1181760020009A091 /* TiInsightsLoadingIndicatorLargeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2678AF9D181760020009A091 /* TiInsightsLoadingIndicatorLargeView.h */; };
+		2678AFA2181760020009A091 /* TiInsightsLoadingIndicatorLargeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2678AF9E181760020009A091 /* TiInsightsLoadingIndicatorLargeView.m */; };
+		2678AFA3181760020009A091 /* TiInsightsLoadingIndicatorLargeViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2678AF9F181760020009A091 /* TiInsightsLoadingIndicatorLargeViewProxy.h */; };
+		2678AFA4181760020009A091 /* TiInsightsLoadingIndicatorLargeViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2678AFA0181760020009A091 /* TiInsightsLoadingIndicatorLargeViewProxy.m */; };
+		268080281807248F003163F8 /* TiInsightsBlipView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2680801C1807248F003163F8 /* TiInsightsBlipView.h */; };
+		268080291807248F003163F8 /* TiInsightsBlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2680801D1807248F003163F8 /* TiInsightsBlipView.m */; };
+		2680802A1807248F003163F8 /* TiInsightsBlipViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2680801E1807248F003163F8 /* TiInsightsBlipViewProxy.h */; };
+		2680802B1807248F003163F8 /* TiInsightsBlipViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2680801F1807248F003163F8 /* TiInsightsBlipViewProxy.m */; };
+		2680802C1807248F003163F8 /* TiInsightsDonutView.h in Headers */ = {isa = PBXBuildFile; fileRef = 268080201807248F003163F8 /* TiInsightsDonutView.h */; };
+		2680802D1807248F003163F8 /* TiInsightsDonutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 268080211807248F003163F8 /* TiInsightsDonutView.m */; };
+		2680802E1807248F003163F8 /* TiInsightsDonutViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 268080221807248F003163F8 /* TiInsightsDonutViewProxy.h */; };
+		2680802F1807248F003163F8 /* TiInsightsDonutViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 268080231807248F003163F8 /* TiInsightsDonutViewProxy.m */; };
+		268080301807248F003163F8 /* TiInsightsOrbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 268080241807248F003163F8 /* TiInsightsOrbView.h */; };
+		268080311807248F003163F8 /* TiInsightsOrbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 268080251807248F003163F8 /* TiInsightsOrbView.m */; };
+		268080321807248F003163F8 /* TiInsightsOrbViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 268080261807248F003163F8 /* TiInsightsOrbViewProxy.h */; };
+		268080331807248F003163F8 /* TiInsightsOrbViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 268080271807248F003163F8 /* TiInsightsOrbViewProxy.m */; };
+		26925604182058EC003855DD /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26925603182058EC003855DD /* CoreImage.framework */; };
+		269256081825C206003855DD /* TiInsightsBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 269256061825C206003855DD /* TiInsightsBlurView.h */; };
+		269256091825C206003855DD /* TiInsightsBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 269256071825C206003855DD /* TiInsightsBlurView.m */; };
+		2692560C1825C242003855DD /* TiInsightsBlurViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2692560A1825C242003855DD /* TiInsightsBlurViewProxy.h */; };
+		2692560D1825C242003855DD /* TiInsightsBlurViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2692560B1825C242003855DD /* TiInsightsBlurViewProxy.m */; };
+		26A78EC11815A20000B8DD92 /* TiInsightsLoadingIndicatorSmallView.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A78EBF1815A20000B8DD92 /* TiInsightsLoadingIndicatorSmallView.h */; };
+		26A78EC21815A20000B8DD92 /* TiInsightsLoadingIndicatorSmallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A78EC01815A20000B8DD92 /* TiInsightsLoadingIndicatorSmallView.m */; };
+		26A78EC51815A23300B8DD92 /* TiInsightsLoadingIndicatorSmallViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A78EC31815A23300B8DD92 /* TiInsightsLoadingIndicatorSmallViewProxy.h */; };
+		26A78EC61815A23300B8DD92 /* TiInsightsLoadingIndicatorSmallViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A78EC41815A23300B8DD92 /* TiInsightsLoadingIndicatorSmallViewProxy.m */; };
+		AA747D9F0F9514B9006C5449 /* TiInsights_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiInsights_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = ti.insights;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* TiInsightsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiInsightsModule.h; path = Classes/TiInsightsModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* TiInsightsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiInsightsModule.m; path = Classes/TiInsightsModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* TiInsightsModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiInsightsModuleAssets.h; path = Classes/TiInsightsModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* TiInsightsModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiInsightsModuleAssets.m; path = Classes/TiInsightsModuleAssets.m; sourceTree = "<group>"; };
+		261B60FD1809AA2800F3F409 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		2678AF9D181760020009A091 /* TiInsightsLoadingIndicatorLargeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiInsightsLoadingIndicatorLargeView.h; sourceTree = "<group>"; };
+		2678AF9E181760020009A091 /* TiInsightsLoadingIndicatorLargeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiInsightsLoadingIndicatorLargeView.m; sourceTree = "<group>"; };
+		2678AF9F181760020009A091 /* TiInsightsLoadingIndicatorLargeViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiInsightsLoadingIndicatorLargeViewProxy.h; sourceTree = "<group>"; };
+		2678AFA0181760020009A091 /* TiInsightsLoadingIndicatorLargeViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiInsightsLoadingIndicatorLargeViewProxy.m; sourceTree = "<group>"; };
+		2680801C1807248F003163F8 /* TiInsightsBlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiInsightsBlipView.h; path = Classes/TiInsightsBlipView.h; sourceTree = "<group>"; };
+		2680801D1807248F003163F8 /* TiInsightsBlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiInsightsBlipView.m; path = Classes/TiInsightsBlipView.m; sourceTree = "<group>"; };
+		2680801E1807248F003163F8 /* TiInsightsBlipViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiInsightsBlipViewProxy.h; path = Classes/TiInsightsBlipViewProxy.h; sourceTree = "<group>"; };
+		2680801F1807248F003163F8 /* TiInsightsBlipViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiInsightsBlipViewProxy.m; path = Classes/TiInsightsBlipViewProxy.m; sourceTree = "<group>"; };
+		268080201807248F003163F8 /* TiInsightsDonutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiInsightsDonutView.h; path = Classes/TiInsightsDonutView.h; sourceTree = "<group>"; };
+		268080211807248F003163F8 /* TiInsightsDonutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiInsightsDonutView.m; path = Classes/TiInsightsDonutView.m; sourceTree = "<group>"; };
+		268080221807248F003163F8 /* TiInsightsDonutViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiInsightsDonutViewProxy.h; path = Classes/TiInsightsDonutViewProxy.h; sourceTree = "<group>"; };
+		268080231807248F003163F8 /* TiInsightsDonutViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiInsightsDonutViewProxy.m; path = Classes/TiInsightsDonutViewProxy.m; sourceTree = "<group>"; };
+		268080241807248F003163F8 /* TiInsightsOrbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiInsightsOrbView.h; path = Classes/TiInsightsOrbView.h; sourceTree = "<group>"; };
+		268080251807248F003163F8 /* TiInsightsOrbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiInsightsOrbView.m; path = Classes/TiInsightsOrbView.m; sourceTree = "<group>"; };
+		268080261807248F003163F8 /* TiInsightsOrbViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiInsightsOrbViewProxy.h; path = Classes/TiInsightsOrbViewProxy.h; sourceTree = "<group>"; };
+		268080271807248F003163F8 /* TiInsightsOrbViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiInsightsOrbViewProxy.m; path = Classes/TiInsightsOrbViewProxy.m; sourceTree = "<group>"; };
+		26925603182058EC003855DD /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		269256061825C206003855DD /* TiInsightsBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiInsightsBlurView.h; sourceTree = "<group>"; };
+		269256071825C206003855DD /* TiInsightsBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiInsightsBlurView.m; sourceTree = "<group>"; };
+		2692560A1825C242003855DD /* TiInsightsBlurViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiInsightsBlurViewProxy.h; sourceTree = "<group>"; };
+		2692560B1825C242003855DD /* TiInsightsBlurViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiInsightsBlurViewProxy.m; sourceTree = "<group>"; };
+		26A78EBF1815A20000B8DD92 /* TiInsightsLoadingIndicatorSmallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiInsightsLoadingIndicatorSmallView.h; sourceTree = "<group>"; };
+		26A78EC01815A20000B8DD92 /* TiInsightsLoadingIndicatorSmallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiInsightsLoadingIndicatorSmallView.m; sourceTree = "<group>"; };
+		26A78EC31815A23300B8DD92 /* TiInsightsLoadingIndicatorSmallViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiInsightsLoadingIndicatorSmallViewProxy.h; sourceTree = "<group>"; };
+		26A78EC41815A23300B8DD92 /* TiInsightsLoadingIndicatorSmallViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiInsightsLoadingIndicatorSmallViewProxy.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* TiInsights_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiInsights_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libTiInsights.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiInsights.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26925604182058EC003855DD /* CoreImage.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libTiInsights.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* ti.insights */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = ti.insights;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26925603182058EC003855DD /* CoreImage.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2692560A1825C242003855DD /* TiInsightsBlurViewProxy.h */,
+				2692560B1825C242003855DD /* TiInsightsBlurViewProxy.m */,
+				269256061825C206003855DD /* TiInsightsBlurView.h */,
+				269256071825C206003855DD /* TiInsightsBlurView.m */,
+				2678AF9D181760020009A091 /* TiInsightsLoadingIndicatorLargeView.h */,
+				2678AF9E181760020009A091 /* TiInsightsLoadingIndicatorLargeView.m */,
+				2678AF9F181760020009A091 /* TiInsightsLoadingIndicatorLargeViewProxy.h */,
+				2678AFA0181760020009A091 /* TiInsightsLoadingIndicatorLargeViewProxy.m */,
+				261B60FD1809AA2800F3F409 /* constants.h */,
+				2680801C1807248F003163F8 /* TiInsightsBlipView.h */,
+				2680801D1807248F003163F8 /* TiInsightsBlipView.m */,
+				2680801E1807248F003163F8 /* TiInsightsBlipViewProxy.h */,
+				2680801F1807248F003163F8 /* TiInsightsBlipViewProxy.m */,
+				268080201807248F003163F8 /* TiInsightsDonutView.h */,
+				268080211807248F003163F8 /* TiInsightsDonutView.m */,
+				268080221807248F003163F8 /* TiInsightsDonutViewProxy.h */,
+				268080231807248F003163F8 /* TiInsightsDonutViewProxy.m */,
+				268080241807248F003163F8 /* TiInsightsOrbView.h */,
+				268080251807248F003163F8 /* TiInsightsOrbView.m */,
+				268080261807248F003163F8 /* TiInsightsOrbViewProxy.h */,
+				268080271807248F003163F8 /* TiInsightsOrbViewProxy.m */,
+				24DE9E0F11C5FE74003F90F6 /* TiInsightsModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* TiInsightsModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* TiInsightsModule.h */,
+				24DD6CF81134B3F500162E58 /* TiInsightsModule.m */,
+				26A78EBF1815A20000B8DD92 /* TiInsightsLoadingIndicatorSmallView.h */,
+				26A78EC01815A20000B8DD92 /* TiInsightsLoadingIndicatorSmallView.m */,
+				26A78EC31815A23300B8DD92 /* TiInsightsLoadingIndicatorSmallViewProxy.h */,
+				26A78EC41815A23300B8DD92 /* TiInsightsLoadingIndicatorSmallViewProxy.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* TiInsights_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261B60FE1809AA2800F3F409 /* constants.h in Headers */,
+				268080321807248F003163F8 /* TiInsightsOrbViewProxy.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* TiInsights_Prefix.pch in Headers */,
+				2678AFA3181760020009A091 /* TiInsightsLoadingIndicatorLargeViewProxy.h in Headers */,
+				26A78EC51815A23300B8DD92 /* TiInsightsLoadingIndicatorSmallViewProxy.h in Headers */,
+				2680802A1807248F003163F8 /* TiInsightsBlipViewProxy.h in Headers */,
+				2680802C1807248F003163F8 /* TiInsightsDonutView.h in Headers */,
+				2692560C1825C242003855DD /* TiInsightsBlurViewProxy.h in Headers */,
+				26A78EC11815A20000B8DD92 /* TiInsightsLoadingIndicatorSmallView.h in Headers */,
+				24DD6CF91134B3F500162E58 /* TiInsightsModule.h in Headers */,
+				268080281807248F003163F8 /* TiInsightsBlipView.h in Headers */,
+				2678AFA1181760020009A091 /* TiInsightsLoadingIndicatorLargeView.h in Headers */,
+				268080301807248F003163F8 /* TiInsightsOrbView.h in Headers */,
+				269256081825C206003855DD /* TiInsightsBlurView.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* TiInsightsModuleAssets.h in Headers */,
+				2680802E1807248F003163F8 /* TiInsightsDonutViewProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* ti.insights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ti.insights" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ti.insights;
+			productName = ti.insights;
+			productReference = D2AAC07E0554694100DB518D /* libTiInsights.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ti.insights" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* ti.insights */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* ti.insights */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268080291807248F003163F8 /* TiInsightsBlipView.m in Sources */,
+				268080331807248F003163F8 /* TiInsightsOrbViewProxy.m in Sources */,
+				2692560D1825C242003855DD /* TiInsightsBlurViewProxy.m in Sources */,
+				2680802D1807248F003163F8 /* TiInsightsDonutView.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* TiInsightsModule.m in Sources */,
+				26A78EC61815A23300B8DD92 /* TiInsightsLoadingIndicatorSmallViewProxy.m in Sources */,
+				2678AFA2181760020009A091 /* TiInsightsLoadingIndicatorLargeView.m in Sources */,
+				269256091825C206003855DD /* TiInsightsBlurView.m in Sources */,
+				2678AFA4181760020009A091 /* TiInsightsLoadingIndicatorLargeViewProxy.m in Sources */,
+				268080311807248F003163F8 /* TiInsightsOrbView.m in Sources */,
+				26A78EC21815A20000B8DD92 /* TiInsightsLoadingIndicatorSmallView.m in Sources */,
+				2680802B1807248F003163F8 /* TiInsightsBlipViewProxy.m in Sources */,
+				2680802F1807248F003163F8 /* TiInsightsDonutViewProxy.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* TiInsightsModuleAssets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* ti.insights */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiInsights.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiInsights_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiInsights;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/TiInsights.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiInsights_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiInsights;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiInsights.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiInsights_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiInsights;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/TiInsights.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiInsights_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TiInsights;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ti.insights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ti.insights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

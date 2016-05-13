@@ -1,0 +1,176 @@
+"#totalContainer" : {
+    top: 0,
+    width: Ti.UI.SIZE,
+    layout: "horizontal"
+},
+
+"#weekLbl" : {
+    color: "#4d4d4d",
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    touchEnabled: false,
+    text: "Last 7 Days",
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#totalLbl" : {
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    touchEnabled: false,
+    text: "8383819",
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#primaryMetricContainer" : {
+    backgroundImage: "/images/detail/primary-metric-bg.png",
+    width: Ti.UI.SIZE,
+    layout: "horizontal"
+},
+
+"#primaryMetricLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    width: Ti.UI.SIZE,
+    color: "#f2f2f2",
+    text: "Total Installs",
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#valueColumnContainer" : {
+    left: 0,
+    height: Ti.UI.FILL
+},
+
+"#valueCeilLbl" : {
+    top: 0,
+    textAlign: "right",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    text: "0k",
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#valueMidLbl" : {
+    textAlign: "right",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    text: "0k",
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#valueFloorLbl" : {
+    bottom: 0,
+    textAlign: "right",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    text: "0k",
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#graphContainer" : {
+    right: 0,
+    height: Ti.UI.FILL
+},
+
+".dayBg" : {
+    backgroundColor: "#383838",
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+".barVertView" : {
+    left: 0,
+    width: 1,
+    backgroundColor: "#404040",
+    touchEnabled: false
+},
+
+".dayPointContainer" : {
+    touchEnabled: false
+},
+
+".dayPointFocusView" : {
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+"#barSelectedView" :{
+    opacity: 0.0,
+    width: 1,
+    touchEnabled: false
+},
+
+"#dayCalloutContainer" : {
+    touchEnabled: false,
+    center: { x:0, y:0 }
+},
+
+"#dayCalloutAngleBarRotationContainer" : {
+    touchEnabled: false,
+    backgroundColor: "#333"
+},
+
+"#dayCalloutAngleBar" : {
+    touchEnabled: false,
+    height: 1,
+    opacity: 0.0
+},
+
+"#dayCalloutStraightBarContainer" : {
+    touchEnabled: false,
+    backgroundColor: "#333"
+},
+
+"#dayCalloutStraightBar" : {
+    touchEnabled: false,
+    height: 1,
+    opacity: 0.0
+},
+
+"#dayCalloutLblContainer" : {
+    touchEnabled: false,
+    width: Ti.UI.SIZE,
+    layout: "horizontal",
+    backgroundImage: "/images/detail/line-graph-callout-bg.png",
+    opacity: 0.0,
+    top: 0,
+},
+
+"#dayCalloutLbl" : {
+    touchEnabled: false,
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#333",
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    text: "2.5k",
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#medianBarView" : {
+    left: 0,
+    right: 0,
+    height: 1,
+    touchEnabled: false
+}

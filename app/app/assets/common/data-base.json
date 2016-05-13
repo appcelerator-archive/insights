@@ -1,0 +1,347 @@
+{
+  "sessions": {
+    "current": [],
+    "currentTotal": 0,
+    "yesterday": 0,
+    "today": 0
+  },
+  "categories": {
+    "acquisition": {
+      "name": "Acquisition",
+      "thisWeek": 0,
+      "lastWeek": 0,
+      "direction": 0,
+      "defaultMetric": "installs",
+      "metrics": {
+        "installs": {
+          "name": "Installs",
+          "type": "standard",
+          "range": [{
+            "name": "Current Quarter",
+            "total": 0
+          }, {
+            "name": "Current Month",
+            "total": 0
+          }],
+          "platform": [{
+            "name": "iOS",
+            "total": 0
+          }, {
+            "name": "Android",
+            "total": 0
+          }, {
+            "name": "Blackberry",
+            "total": 0
+          }, {
+            "name": "Mobileweb",
+            "total": 0
+          }, {
+            "name": "Tizen",
+            "total": 0
+          }, {
+            "name": "Windows",
+            "total": 0
+          }],
+          "last7Days": 0,
+          "weekByDays": [0, 0, 0, 0, 0, 0, 0],
+          "direction": 0
+        },
+        "pushDevices": {
+          "name": "Total Push Devices",
+          "type": "standard",
+          "range": [{
+            "name": "Current Quarter",
+            "total": 0
+          }, {
+            "name": "Current Month",
+            "total": 0
+          }],
+          "platform": [{
+            "name": "iOS",
+            "total": 0
+          }, {
+            "name": "Android",
+            "total": 0
+          }, {
+            "name": "Blackberry",
+            "total": 0
+          }, {
+            "name": "Mobileweb",
+            "total": 0
+          }, {
+            "name": "Tizen",
+            "total": 0
+          }, {
+            "name": "Windows",
+            "total": 0
+          }],
+          "last7Days": 0,
+          "weekByDays": [0, 0, 0, 0, 0, 0, 0],
+          "direction": 0
+        }
+      },
+      "funnels": []
+    },
+    "engagement": {
+      "name": "Engagement",
+      "thisWeek": 0,
+      "lastWeek": 0,
+      "direction": 0,
+      "defaultMetric": "sessionLength",
+      "metrics": {
+        "sessions": {
+          "name": "Total Sessions",
+          "type": "standard",
+          "range": [{
+            "name": "Current Quarter",
+            "total": 0
+          }, {
+            "name": "Current Month",
+            "total": 0
+          }],
+          "platform": [{
+            "name": "iOS",
+            "total": 0
+          }, {
+            "name": "Android",
+            "total": 0
+          }, {
+            "name": "Blackberry",
+            "total": 0
+          }, {
+            "name": "Mobileweb",
+            "total": 0
+          }, {
+            "name": "Tizen",
+            "total": 0
+          }, {
+            "name": "Windows",
+            "total": 0
+          }],
+          "last7Days": 0,
+          "weekByDays": [0, 0, 0, 0, 0, 0, 0],
+          "direction": 0
+        },
+        "sessionLength": {
+          "name": "Avg Session Length",
+          "type": "standard",
+          "range": [{
+            "name": "Current Quarter",
+            "total": 0
+          }, {
+            "name": "Current Month",
+            "total": 0
+          }],
+          "platform": [{
+            "name": "iOS",
+            "total": 0
+          }, {
+            "name": "Android",
+            "total": 0
+          }, {
+            "name": "Blackberry",
+            "total": 0
+          }, {
+            "name": "Mobileweb",
+            "total": 0
+          }, {
+            "name": "Tizen",
+            "total": 0
+          }, {
+            "name": "Windows",
+            "total": 0
+          }],
+          "last7Days": 0,
+          "weekByDays": [0, 0, 0, 0, 0, 0, 0],
+          "direction": 0
+        }
+      },
+      "funnels": []
+    },
+    "quality": {
+      "name": "Quality",
+      "thisWeek": 0,
+      "lastWeek": 0,
+      "direction": 0,
+      "defaultMetric": "crashFrequency",
+      "metrics": {
+        "crashFrequency": {
+          "name": "Crash Frequency",
+          "type": "standard",
+          "range": [{
+            "name": "Current Quarter",
+            "total": 0
+          }, {
+            "name": "Current Month",
+            "total": 0
+          }],
+          "platform": [{
+            "name": "iOS",
+            "total": 0
+          }, {
+            "name": "Android",
+            "total": 0
+          }, {
+            "name": "Blackberry",
+            "total": 0
+          }, {
+            "name": "Mobileweb",
+            "total": 0
+          }, {
+            "name": "Tizen",
+            "total": 0
+          }, {
+            "name": "Windows",
+            "total": 0
+          }],
+          "last7Days": 0,
+          "weekByDays": [0, 0, 0, 0, 0, 0, 0],
+          "direction": 0
+        },
+        "sessionsOverCrashes": {
+          "name": "Sessions / Crashes",
+          "type": "standard",
+          "range": [{
+            "name": "Current Quarter",
+            "total": 0
+          }, {
+            "name": "Current Month",
+            "total": 0
+          }],
+          "platform": [{
+            "name": "iOS",
+            "total": 0
+          }, {
+            "name": "Android",
+            "total": 0
+          }, {
+            "name": "Blackberry",
+            "total": 0
+          }, {
+            "name": "Mobileweb",
+            "total": 0
+          }, {
+            "name": "Tizen",
+            "total": 0
+          }, {
+            "name": "Windows",
+            "total": 0
+          }],
+          "last7Days": 0,
+          "weekByDays": [0, 0, 0, 0, 0, 0, 0],
+          "direction": 0
+        },
+        "uniqueCrashes": {
+          "name": "Unique Crashes",
+          "type": "standard",
+          "range": [{
+            "name": "Current Quarter",
+            "total": 0
+          }, {
+            "name": "Current Month",
+            "total": 0
+          }],
+          "platform": [{
+            "name": "iOS",
+            "total": 0
+          }, {
+            "name": "Android",
+            "total": 0
+          }, {
+            "name": "Blackberry",
+            "total": 0
+          }, {
+            "name": "Mobileweb",
+            "total": 0
+          }, {
+            "name": "Tizen",
+            "total": 0
+          }, {
+            "name": "Windows",
+            "total": 0
+          }],
+          "last7Days": 0,
+          "weekByDays": [0, 0, 0, 0, 0, 0, 0],
+          "direction": 0
+        }
+      },
+      "funnels": []
+    },
+    "retention": {
+      "name": "Retention",
+      "thisWeek": 0,
+      "lastWeek": 0,
+      "direction": 0,
+      "defaultMetric": "retentionRate",
+      "metrics": {
+        "retentionRate": {
+          "name": "Retention Rate",
+          "type": "standard",
+          "range": [{
+            "name": "Current Quarter",
+            "total": 0
+          }, {
+            "name": "Current Month",
+            "total": 0
+          }],
+          "platform": [{
+            "name": "iOS",
+            "total": 0
+          }, {
+            "name": "Android",
+            "total": 0
+          }, {
+            "name": "Blackberry",
+            "total": 0
+          }, {
+            "name": "Mobileweb",
+            "total": 0
+          }, {
+            "name": "Tizen",
+            "total": 0
+          }, {
+            "name": "Windows",
+            "total": 0
+          }],
+          "last7Days": 0,
+          "weekByDays": [0, 0, 0, 0, 0, 0, 0],
+          "direction": 0
+        },
+        "uniqueDevices": {
+          "name": "Unique Devices",
+          "type": "standard",
+          "range": [{
+            "name": "Current Quarter",
+            "total": 0
+          }, {
+            "name": "Current Month",
+            "total": 0
+          }],
+          "platform": [{
+            "name": "iOS",
+            "total": 0
+          }, {
+            "name": "Android",
+            "total": 0
+          }, {
+            "name": "Blackberry",
+            "total": 0
+          }, {
+            "name": "Mobileweb",
+            "total": 0
+          }, {
+            "name": "Tizen",
+            "total": 0
+          }, {
+            "name": "Windows",
+            "total": 0
+          }],
+          "last7Days": 0,
+          "weekByDays": [0, 0, 0, 0, 0, 0, 0],
+          "direction": 0
+        }
+      },
+      "funnels": []
+    }
+  }
+}

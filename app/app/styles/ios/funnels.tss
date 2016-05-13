@@ -1,0 +1,186 @@
+"#parentView" : {
+    left: 50,
+    right: 0,
+    height: 410,
+    opacity: 0.0
+},
+
+"#weekContainer" : {
+    top: 0,
+    left: 20,
+    height: 20,
+    width: 280
+},
+
+"#weekLbl" : {
+    color: "#4d4d4d",
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 18
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    touchEnabled: false,
+    text: "Last 7 Days",
+    left: 0
+},
+
+"#rightContainer" : {
+    width: Ti.UI.SIZE,
+    height: 20,
+    right: 0,
+    layout: "horizontal",
+    opacity: 0.0
+},
+
+"#typeLblContainer" : {
+    backgroundImage: "detail/primary-metric-bg.png",
+    backgroundTopCap: 5,
+    backgroundLeftCap: 5,
+    height: 20,
+    width: Ti.UI.SIZE,
+    left: 0,
+    layout: "horizontal"
+},
+
+"#typeLbl" : {
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    touchEnabled: false,
+    textAlign: "center",
+    text: "Conversion Rate"
+},
+
+"#totalLbl" : {
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 20
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    touchEnabled: false,
+    text: "0%",
+    right: 0
+},
+
+"#eventScrollViewContainer" : {
+    opacity: 0.0,
+    width: 320,
+    height: 360,
+    left: 0,
+    bottom: 0    
+},
+
+"#eventScrollView" : {
+    width: 320,
+    height: 360,
+    backgroundImage: "detail/primary-metric-bg.png",
+    backgroundTopCap: 5,
+    backgroundLeftCap: 5,
+    contentHeight: 'auto',
+    showVerticalScrollIndicator: true
+},
+
+"#eventContainer" : {
+    left: 0,
+    right: 0,
+    top: 0,
+    height: Ti.UI.SIZE,
+    layout: "vertical"
+},
+
+"#eventScrollViewFadeTop" : {
+    top: 0,
+    left: 12,
+    right: 12,
+    height: 40,
+    backgroundImage: 'detail/funnel-list-fade-top.png',
+    touchEnabled: false,
+    opacity: 0.0
+},
+
+"#eventScrollViewFadeBottom" : {
+    bottom: 0,
+    left: 12,
+    right: 12,
+    height: 40,
+    backgroundImage: 'detail/funnel-list-fade-bottom.png',
+    touchEnabled: false
+},
+
+"#eventGraphContainer" : {
+    width: 535,
+    height: 370,
+    right: 50,
+    bottom: 0
+},
+
+"#topCountContainer" : {
+    top: 0, 
+    right: 0,
+    width: 650,
+    height: 16
+},
+
+"#topCountLblContainer": {
+    height: 16,
+    width: Ti.UI.SIZE,
+    backgroundColor: "#333",
+    layout: "horizontal",
+    opacity: 0.0
+},
+
+"#topCountLbl" : {
+    top: 0,
+    text: "Count",
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 16
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    touchEnabled: false,
+}
+
+"#selectionArrowContainer" : {
+    width: 535,
+    height: 38,
+    right: 50,
+    top: 0,
+    touchEnabled: false  
+},
+
+"#selectionArrow": {
+    width: 1,
+    height: 16,
+    top: 16,
+    opacity: 0.0
+},
+
+"#selectionRange": {
+    backgroundLeftCap: 2,
+    height: 4,
+    backgroundImage: 'detail/funnel-range-selection.png',
+    opacity: 0.0,
+    bottom: 4
+},
+
+"#loadingDataLbl" : {
+    text: "Loading Funnel Data...",
+    color: "#f2f2f2",
+    opacity: 0.0,
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 24
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    touchEnabled: false,
+}

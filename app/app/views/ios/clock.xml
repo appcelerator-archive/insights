@@ -1,0 +1,39 @@
+<Alloy>
+    <View id="parentContainer">
+        <View id="background" />
+        <View id="lightTimeContainer">
+            <Label id="dateLightLbl" class="contentLight" />
+            <View width="5" />
+            <Label id="lightPipe" class="divLight" text="|" />
+            <View width="6" />
+            <Label id="timeHourLightLbl" class="contentLight" />
+            <View width="5" />
+            <Label id="timeDivLight01Lbl" class="divLight" />
+            <View width="6" />
+            <Label id="timeMinuteLightLbl" class="contentLight" />
+            <View width="5" />
+            <Label id="timeDivLight02Lbl" class="divLight" />
+            <View width="6" />
+            <Label id="timeSecondLightLbl" class="contentLight" />
+            <View width="5" />
+            <Label id="timeFormatLightLbl" class="divLight" />
+        </View>
+        <View id="darkTimeContainer">
+            <Label id="dateDarkLbl" class="contentDark" />
+            <View width="5" />
+            <Label id="darkPipe" class="divDark" text="|" />
+            <View width="6" />
+            <Label id="timeHourDarkLbl" class="contentDark" />
+            <View width="5" />
+            <Label id="timeDivDark01Lbl" class="divDark" />
+            <View width="6" />
+            <Label id="timeMinuteDarkLbl" class="contentDark" />
+            <View width="5" />
+            <Label id="timeDivDark02Lbl" class="divDark" />
+            <View width="6" />
+            <Label id="timeSecondDarkLbl" class="contentDark" />
+            <View width="5" />
+            <Label id="timeFormatDarkLbl" class="divDark" />
+        </View>
+    </View>
+</Alloy>

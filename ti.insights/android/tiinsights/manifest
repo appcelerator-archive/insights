@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: My module
+author: Fred Spencer
+license: Specify your license
+copyright: Appcelerator 2014
+
+
+# these should not be edited
+name: tiinsights
+moduleid: ti.insights
+guid: 7ade4444-8708-4c67-af21-457e637f5849
+platform: android
+minsdk: 3.2.3

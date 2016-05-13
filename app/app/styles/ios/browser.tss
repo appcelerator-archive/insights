@@ -1,0 +1,138 @@
+"#parentContainer" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    opacity: 0.0,
+    zIndex: 100
+},
+
+"#webViewContainer" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL
+},
+
+"#navContainer" : {
+    height: 50,
+    bottom: 0
+},
+
+"#blurBg" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    touchEnabled: false,
+    translucentTintColor: '#000000',
+    translucentAlpha: 1.0,
+    translucentStyle: 1,
+    translucent: 1
+},
+
+"#closeBtnContainer" : {
+    width: 50,
+    height: 50,
+    left: 0
+},
+
+"#closeBtn" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "browser/close-icon.png"
+},
+
+"#closeBtnTouch" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "browser/close-icon-touch.png",
+    opacity: 0.0
+},
+
+"#pageTitleLbl" : {
+    left: 50,
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    touchEnabled: false,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    },
+    color: "#f2f2f2"
+},
+
+"#backBtnContainer" : {
+    width: 50,
+    height: 50,
+    right: 100
+},
+
+"#backBtn" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "browser/back-icon.png",
+    opacity: 0.0
+},
+
+"#backBtnTouch" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "browser/back-icon-touch.png",
+    opacity: 0.0
+},
+
+"#backBtnDisabled" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "browser/back-icon-disabled.png"
+},
+
+"#refreshBtnContainer" : {
+    width: 50,
+    height: 50,
+    right: 50
+},
+
+"#refreshBtn" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "browser/refresh-icon.png"
+},
+
+"#refreshBtnTouch" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "browser/refresh-icon-touch.png",
+    opacity: 0.0
+},
+
+"#forwardBtnContainer" : {
+    width: 50,
+    height: 50,
+    right: 0
+},
+
+"#forwardBtn" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "browser/forward-icon.png",
+    opacity: 0.0
+},
+
+"#forwardBtnTouch" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "browser/forward-icon-touch.png",
+    opacity: 0.0
+},
+
+"#forwardBtnDisabled" : {
+    touchEnabled: false,
+    width: 50,
+    height: 50,
+    backgroundImage: "browser/forward-icon-disabled.png"
+}

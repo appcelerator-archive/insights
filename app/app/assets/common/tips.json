@@ -1,0 +1,274 @@
+{
+    "tips": {
+        "currentSessionMap": [{
+            "html": "<p>Insights is a real-time view of your app's production analytics. This app groups metrics into 4 key categories: <span class=\"keyword-highlight\">Acquisition</span>, <span class=\"keyword-highlight\">Engagement</span>, <span class=\"keyword-highlight\">Retention</span>, <span class=\"keyword-highlight\">Quality</span></p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [270, 112],
+                "width": 800
+            },
+            "seen": false
+        }, {
+            "html": "<p>Select from your published apps to view associated analytics.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [95, 50],
+                "width": 350
+            },
+            "seen": false
+        }, {
+            "html": "<p>This is the number of people currently using the selected app.</p><p><span class=\"action-highlight\">Tap</span> to view previous and last 24 hours.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [120, 337],
+                "width": 350
+            },
+            "seen": false
+        }, {
+            "html": "<p>The map displays location and density of your currently active users, for the selected app.</p><p><span class=\"action-highlight\">Tap</span> the map to toggle full screen view.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [260, 112],
+                "width": 800
+            },
+            "seen": false
+        }, {
+            "html": "<p>The orbs below, spanning from left-to-right, represent metric categories: <span class=\"keyword-highlight\">Acquisition</span>, <span class=\"keyword-highlight\">Engagement</span>, <span class=\"keyword-highlight\">Retention</span>, <span class=\"keyword-highlight\">Quality</span></p><p>Blue (outward) and magenta (inward) orbs communicate the upward and downward weekly change, respectively. Thickness highlights the magnitude of the change.</p><p><span class=\"action-highlight\">Tap</span> an orb to get more details for each category.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [300, 112],
+                "width": 800
+            },
+            "seen": false
+        }],
+        "metricCategoryOverview": [{
+            "html": "<p>The metric category overview contains stats and the weekly change for each category. The selected category highlights a primary metric, displayed next to the metric category name.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [500, 112],
+                "width": 800
+            },
+            "seen": false
+        }, {
+            "html": "<p><span class=\"keyword-highlight\">Acquisition</span> communicates the number of people that have installed the selected app.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [120, 30],
+                "width": 350
+            },
+            "seen": false
+        }, {
+            "html": "<p><span class=\"keyword-highlight\">Engagement</span> communicates how much time users have spent in the selected app.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [120, 209],
+                "width": 350
+            },
+            "seen": false
+        }, {
+            "html": "<p><span class=\"keyword-highlight\">Retention</span> communicates the ratio of new users last week that have used the selected app this week.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [120, 462],
+                "width": 350
+            },
+            "seen": false
+        }, {
+            "html": "<p><span class=\"keyword-highlight\">Quality</span> communicates how often your users experience a crash during selected app use.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [120, 644],
+                "width": 350
+            },
+            "seen": false
+        }, {
+            "html": "<p><span class=\"action-highlight\">Tap</span> the category name or <span class=\"action-highlight\">swipe up</span> to view additional details and metrics for the selected category.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [500, 112],
+                "width": 800
+            },
+            "seen": false
+        }],
+        "detailMetricStandard": [{
+            "html": "<p>The metric category detail panel helps you deeply analyze the selected metric category. Quickly gauge selected app trends and audience profile.</p><p>Move between metric categories by <span class=\"action-highlight\">tapping</span> the small orbs, above. <span class=\"action-highlight\">Swipe down</span> to go back to the category overview screen.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [300, 162],
+                "width": 700
+            },
+            "seen": false
+        }, {
+            "html": "<p>The metric slider is a horizontal, scrollable list that display all metrics from the currently selected metric category.</p><p><span class=\"action-highlight\">Tapping</span> an element will move you through each metric. <span class=\"action-highlight\">Tapping</span> a selected metric will toggle between monthly and quarterly values.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [430, 40],
+                "width": 600
+            },
+            "seen": false
+        }, {
+            "html": "<p>Track min, max, and median metric values over the last 7 days.</p><p><span class=\"action-highlight\">Tapping</span> a column will select and reveal additional detail for that day.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [265, 93],
+                "width": 350
+            },
+            "seen": false
+        }, {
+            "html": "<p>Analyze the mobile OS for the selected metric.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [335, 584],
+                "width": 350
+            },
+            "seen": false
+        }],
+        "detailMetricFunnel": [{
+            "html": "<p>Funnels help you measure app flow conversion rates and identify flow bottlenecks.</p><p>To view a funnel in Insights, create and share funnels from the Appcelerator Dashboard.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [350, 162],
+                "width": 700
+            },
+            "seen": false
+        }, {
+            "html": "<p><span class=\"action-highlight\">Tapping</span> a selected funnel metric will toggle display of monthly and quarterly funnel conversion rate values.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [500, 40],
+                "width": 600
+            },
+            "seen": false
+        }, {
+            "html": "<p>This list displays additional detail for each step in the selected funnel. Each row displays the number of people completing each step, as well as conversion and drop-off rates.</p><p>Select a funnel step by <span class=\"action-highlight\">tapping</span> any row.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [310, 35],
+                "width": 350
+            },
+            "seen": false
+        }, {
+            "html": "<p>The chart is the visual representation of the selected funnel. White lines highlight conversion and drop-off rates, per-step. A dashed pattern indicates the step with the largest drop-off rate.</p><p><span class=\"action-highlight\">Tap</span> any column or <span class=\"action-highlight\">slide</span> horizontally to select a funnel step.</p>",
+            "arrow": {
+                "position": "top",
+                "offset": {
+                    "left": 0,
+                    "top": 0
+                }
+            },
+            "container": {
+                "position": [300, 410],
+                "width": 580
+            },
+            "seen": false
+        }]
+    }
+}

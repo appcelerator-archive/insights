@@ -1,0 +1,15 @@
+"#parentView" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    touchEnabled: false,
+    zIndex: 200
+},
+
+"#tipContainer" : {
+    width: Ti.Platform.displayCaps.platformWidth,
+    height: Ti.Platform.displayCaps.platformHeight,
+    left: 0,
+    touchEnabled: false,
+    opacity: 0.0,
+    backgroundImage: "tips/bg.png"
+}

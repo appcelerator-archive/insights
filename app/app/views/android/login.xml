@@ -1,0 +1,51 @@
+<Alloy>
+    <View id="parentContainer">
+        <View id="touch" />
+        <View id="loginWrapper">
+            <View id="loginContentContainer">
+                <View id="loginContentWrapper">
+                    <View id="logoContainer">
+                        <View id="logoGray" />
+                        <!-- <View id="logoRed" /> -->
+                    </View>
+                    <Label id="platformLbl" />
+                    <View id="fieldContainer">
+                        <View id="usernameBg">
+                            <View id="usernameValidInd" />
+                        </View>
+                        <Button id="clearUsernameBtn" />
+                        <Label id="usernameLbl" />
+                        <TextField id="usernameField" />
+
+                        <View id="passwordBg">
+                            <View id="loginBtn" />
+                        </View>
+                        <Button id="clearPasswordBtn" />
+                        <Label id="passwordLbl" />
+                        <TextField id="passwordField" />
+
+                        <View id="domainBg">
+                            <Button id="clearDomainBtn" />
+                            <Label id="domainFieldLbl" />
+                            <View id="lockIcon" />
+                            <TextField id="domainField" />
+                        </View>
+                    </View>
+                    <View id="moreContainer">
+                        <View id="domainContainer">
+                            <Label id="domainLbl" />
+                            <Label id="domainLblTouch" />
+                        </View>
+                        <View width="6" />
+                        <Label id="morePipeLbl" />
+                        <View width="6" />
+                        <View id="cancelContainer">
+                            <Label id="cancelLbl" />
+                            <Label id="cancelLblTouch" />
+                        </View>
+                    </View>
+                </View>
+            </View>
+        </View>
+    </View>
+</Alloy>

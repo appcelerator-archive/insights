@@ -1,0 +1,9 @@
+<Alloy>
+    <View id="parentView">
+        <View id="toggleContainer">
+            <View id="centerIndicator" />
+            <View id="toggleBtn" />
+            <View id="toggleBtnTouch" />
+        </View>
+    </View>
+</Alloy>

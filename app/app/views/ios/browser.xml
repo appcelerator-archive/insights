@@ -1,0 +1,28 @@
+<Alloy>
+    <View id="parentContainer">
+        <View id="webViewContainer" />
+        <View id="navContainer">
+            <Module id="ti.insights" module="ti.insights" method="createBlurView" id="blurBg" />
+            <View id="closeBtnContainer">
+                <Button id="closeBtn" />
+                <Button id="closeBtnTouch" />
+            </View>
+            <Label id="pageTitleLbl" />
+            <View id="backBtnContainer">
+                <Button id="backBtn" />
+                <Button id="backBtnTouch" />
+                <Button id="backBtnDisabled" />
+            </View>
+            <View id="refreshBtnContainer">
+                <Button id="refreshBtn" />
+                <Button id="refreshBtnTouch" />
+                <Button id="refreshBtnDisabled" />
+            </View>
+            <View id="forwardBtnContainer">
+                <Button id="forwardBtn" />
+                <Button id="forwardBtnTouch" />
+                <Button id="forwardBtnDisabled" />
+            </View>
+        </View>
+    </View>
+</Alloy>

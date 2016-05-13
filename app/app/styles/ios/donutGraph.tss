@@ -1,0 +1,34 @@
+"#parentView" : {
+    width: 452,
+    height: 452,
+    right: 40
+},
+
+"#toggleContainer" : {
+    width: 175,
+    height: 175,
+    touchEnabled: false
+},
+
+"#centerIndicator" : {
+    width: 175,
+    height: 175,
+    backgroundImage: 'detail/center-indicator.png',
+    touchEnabled: false,
+    opacity: 0.0
+},
+
+"#toggleBtn" : {
+    width: 88,
+    height: 88,
+    backgroundImage: 'detail/toggle-btn.png',
+    touchEnabled: false
+},
+
+"#toggleBtnTouch" : {
+    width: 92,
+    height: 92,
+    backgroundImage: 'detail/toggle-btn-touch.png',
+    touchEnabled: false,
+    opacity: 0.0
+}

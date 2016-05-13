@@ -1,0 +1,111 @@
+<Alloy>
+    <View id="parentView">
+        <View id="valueColumnContainer">
+            <Label id="valueCeilLbl" />
+            <Label id="valueMidLbl" />
+            <Label id="valueFloorLbl" />
+        </View>
+        <View id="graphContainer">
+            <View id="day00Container" class="dayContainer">
+                <View id="day00Bg" class="dayBg" />
+                <Label id="day00Lbl" class="dayLbl" />
+                <Label id="day00FocusLbl" class="dayFocusLbl" />
+                <View id="barDay00View" class="barVertView" />
+            </View>
+            <View id="day01Container" class="dayContainer">
+                <View id="day01Bg" class="dayBg" />
+                <Label id="day01Lbl" class="dayLbl" />
+                <Label id="day01FocusLbl" class="dayFocusLbl" />
+                <View id="barDay01View" class="barVertView" />
+            </View>
+            <View id="day02Container" class="dayContainer">
+                <View id="day02Bg" class="dayBg" />
+                <Label id="day02Lbl" class="dayLbl" />
+                <Label id="day02FocusLbl" class="dayFocusLbl" />
+                <View id="barDay02View" class="barVertView" />
+            </View>
+            <View id="day03Container" class="dayContainer">
+                <View id="day03Bg" class="dayBg" />
+                <Label id="day03Lbl" class="dayLbl" />
+                <Label id="day03FocusLbl" class="dayFocusLbl" />
+                <View id="barDay03View" class="barVertView" />
+            </View>
+            <View id="day04Container" class="dayContainer">
+                <View id="day04Bg" class="dayBg" />
+                <Label id="day04Lbl" class="dayLbl" />
+                <Label id="day04FocusLbl" class="dayFocusLbl" />
+                <View id="barDay04View" class="barVertView" />
+            </View>
+            <View id="day05Container" class="dayContainer">
+                <View id="day05Bg" class="dayBg" />
+                <Label id="day05Lbl" class="dayLbl" />
+                <Label id="day05FocusLbl" class="dayFocusLbl" />
+                <View id="barDay05View" class="barVertView" />
+            </View>
+            <View id="day06Container" class="dayContainer">
+                <View id="day06Bg" class="dayBg" />
+                <Label id="day06Lbl" class="dayLbl" />
+                <Label id="day06FocusLbl" class="dayFocusLbl" />
+                <View id="barDay06View" class="barVertView" />
+            </View>
+            <View id="barSelectedView" class="barVertView" />
+            <View id="medianBarView" />
+        </View>
+        <View id="day00PointContainer" class="dayPointContainer">
+            <View id="day00PointView" class="dayPointView" />
+            <View id="day00PointFocusView" class="dayPointFocusView" />
+        </View>
+        <View id="day01PointContainer" class="dayPointContainer">
+            <View id="day01PointView" class="dayPointView" />
+            <View id="day01PointFocusView" class="dayPointFocusView" />
+        </View>
+        <View id="day02PointContainer" class="dayPointContainer">
+            <View id="day02PointView" class="dayPointView" />
+            <View id="day02PointFocusView" class="dayPointFocusView" />
+        </View>
+        <View id="day03PointContainer" class="dayPointContainer">
+            <View id="day03PointView" class="dayPointView" />
+            <View id="day03PointFocusView" class="dayPointFocusView" />
+        </View>
+        <View id="day04PointContainer" class="dayPointContainer">
+            <View id="day04PointView" class="dayPointView" />
+            <View id="day04PointFocusView" class="dayPointFocusView" />
+        </View>
+        <View id="day05PointContainer" class="dayPointContainer">
+            <View id="day05PointView" class="dayPointView" />
+            <View id="day05PointFocusView" class="dayPointFocusView" />
+        </View>
+        <View id="day06PointContainer" class="dayPointContainer">
+            <View id="day06PointView" class="dayPointView" />
+            <View id="day06PointFocusView" class="dayPointFocusView" />
+        </View>
+        <View id="dayCalloutContainer">
+            <View id="dayCalloutBarContainer">
+                <View id="dayCalloutStraightBarContainer">
+                    <View id="dayCalloutStraightBar" />
+                </View>
+                <View id="dayCalloutAngleBarContainer">
+                    <View id="dayCalloutAngleBarRotationContainer">
+                        <View id="dayCalloutAngleBar" />
+                    </View>
+                </View>
+            </View>
+            <View id="dayCalloutLblContainer">
+                <View id="dayCalloutLblContainerSpacer01" />
+                <Label id="dayCalloutLbl" />
+                <View id="dayCalloutLblContainerSpacer02" />
+            </View>
+        </View>
+        <View id="totalContainer">
+            <Label id="weekLbl" />
+            <View id="totalContainerSpacer01" height="1" />
+            <Label id="totalLbl" />
+            <View id="totalContainerSpacer02" height="1" />
+            <View id="primaryMetricContainer">
+                <View id="primaryMetricContainerSpacer01" />
+                <Label id="primaryMetricLbl" />
+                <View id="primaryMetricContainerSpacer02" />
+            </View>
+        </View>
+    </View>
+</Alloy>

@@ -1,0 +1,77 @@
+<Alloy>
+    <View id="overlayBtnContainer">
+        <View id="moreBtnContainer">
+            <View id="moreBtnLight" />
+            <View id="moreBtnDark" />
+            <View id="moreBtnTouch" />
+        </View>
+        <Label id="currentAppNameLblDark" />
+        <Label id="currentAppNameLblLight" />
+    </View>
+
+    <View id="parentContainer">
+        <View id="menu">
+            <View id="currentAppInMenuContainer">
+                <View id="backBtnContainer">
+                    <View id="backBtn" />
+                    <View id="backBtnTouch" />
+                </View>
+                <Label id="currentAppInMenuLbl" />
+            </View>
+            <View id="filterContainer">
+                <View id="filterBg" />
+                <Button id="clearFilterBtn" />
+                <Label id="filterLbl" />
+                <TextField id="filterField" />
+                <View id="filterCountContainer">
+                    <View id="filterCountBgBlur" />
+                    <View id="filterCountBgFocus" />
+                    <Label id="filterCountLbl" />
+                    <Label id="filterTotalCountLbl" />
+                </View>
+            </View>
+            <TableView id="appListContainer" />
+            <View id="appListEmptyContainer">
+                <Label id="noAppsLbl" />
+            </View>
+            <View id="loginContainer">
+                <View id="loginLblContainer">
+                    <View id="loginLine01Container">
+                        <View id="loginBtnContainer">
+                            <Label id="loginLbl" />
+                            <Label id="loginLblTouch" />
+                        </View>
+                        <View width="4" />
+                        <Label id="loginLbl01" />
+                    </View>
+                    <View height="10" />
+                    <Label id="loginLbl02" />
+                </View>
+            </View>
+            <View id="footerContainer">
+                <View id="footerBar" />
+                <View id="refreshContainer">
+                    <View id="refreshIconContainer">
+                        <View id="refreshIcon" />
+                        <View id="refreshIconTouch" />
+                    </View>
+                    <View id="refreshLblContainer">
+                        <Label id="refreshLbl" />
+                        <View width="4" />
+                        <Label id="refreshDescLbl" />
+                    </View>
+                    <View id="lastUpdatedContainer">
+                        <Label id="lastUpdatedDescLbl" />
+                        <View width="4" />
+                        <Label id="lastUpdatedLbl" />
+                    </View>
+                </View>
+                <View id="demoContainer">
+                    <View id="demoBg" />
+                    <View id="demoBgTouch" />
+                    <Label id="demoLbl" />
+                </View>
+            </View>
+        </View>
+    </View>
+</Alloy>

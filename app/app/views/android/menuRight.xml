@@ -1,0 +1,43 @@
+<Alloy>
+    <View id="overlayBtnContainer">
+        <View id="moreBtnContainer">
+            <View id="moreBtnLight" />
+            <View id="moreBtnDark" />
+            <View id="moreBtnTouch" />
+        </View>
+
+        <View id="logoRed" />
+        <View id="logoWhite" />
+        
+        <View id="helpBtnContainer">
+            <View id="helpMenuHelper" />
+            <View id="helpLight" />
+            <View id="helpDark" />
+        </View>
+    </View>
+
+    <View id="parentContainer">
+        <View id="menu">
+            <View id="headerContainer">
+                <View id="headerContentContainer">
+                    <View id="backBtnContainer">
+                        <View id="backBtn" />
+                        <View id="backBtnTouch" />
+                    </View>
+                    <View id="logo" />
+                    <Label id="appcNameLbl" />
+                </View>
+            </View>
+            <TableView id="menuList" />
+            <View id="footerContainer">
+                <View id="footerBar" />
+                <View id="loginContainer">
+                    <View id="loginBg" />
+                    <View id="loginBgTouch" />
+                    <Label id="loginLbl" />
+                </View>
+                <Label id="currentUsername" />
+            </View>
+        </View>
+    </View>
+</Alloy>

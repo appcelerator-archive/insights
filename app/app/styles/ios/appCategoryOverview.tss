@@ -1,0 +1,232 @@
+"#parentContainer" : {
+    width: Ti.Platform.displayCaps.platformWidth,
+    height: Ti.Platform.displayCaps.platformHeight,
+    top: 526
+},
+
+"#wash" : {
+    backgroundImage: 'overview/wash.png',
+    opacity: 0.0,
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL
+},
+
+"#orbContainer" : {
+    height: 242,
+    center: {
+        x: 0,
+        y: 637
+    },
+    width: Ti.UI.FILL
+},
+
+"#overviewContainer" : {
+    height: 180,
+    left: 0,
+    right: 0,
+    bottom: -180
+},
+
+"#performanceLblContainer" : {
+    top: 0,
+    height: 50,
+    left: 0,
+    right: 0
+},
+
+"#lastWeekLbl" : {
+    text: "0",
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 36
+    },
+    color: "#333",
+    left: 40,
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE
+},
+
+"#thisWeekPercentLbl" : {
+    text: "0%",
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 36
+    },
+    color: "#ccc",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE
+},
+
+"#thisWeekLbl" : {
+    right: 40,
+    text: "0",
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 36
+    },
+    color: "#333",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE
+},
+
+"#performanceBarContainer" : {
+    height: 32,
+    top: 48,
+    left: 40,
+    right: 40
+},
+
+"#lastWeekBg" : {
+    height: 32,
+    left: 0,
+    width: 90,
+    backgroundLeftCap: 5,
+    backgroundTopCap: 5,
+    backgroundImage: "overview/week-label-bg.png"
+},
+
+"#staticLastWeekLbl" : {
+    text: "Last Week",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 16
+    },
+    color: "#b2b2b2",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE    
+},
+
+"#barContainer" : {
+    height: 5,
+    left: 96,
+    width: 751
+},
+
+"#lastWeekBar" : {
+    height: 1,
+    left: 0,
+    right: 0,
+    backgroundColor: "#b2b2b2"  
+},
+
+"#thisWeekBarContainer" : {
+    height: 5,
+    width: 0,
+    right: 0    
+},
+
+"#thisWeekBar" : {
+    height: 1,
+    left: 0,
+    right: 0
+},
+
+"#thisWeekBarBlip" : {
+    width: 5,
+    height: 4,
+    left: 0
+},
+
+"#thisWeekBg" : {
+    height: 32,
+    right: 0,
+    width: 90,
+    backgroundLeftCap: 5,
+    backgroundTopCap: 5,
+    backgroundImage: "overview/week-label-bg.png"
+},
+
+"#staticThisWeekLbl" : {
+    text: "This Week",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 16
+    },
+    color: "#b2b2b2",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE    
+},
+
+"#staticThisWeekLblIncrease" : {
+    text: "This Week",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 16
+    },
+    color: "#00b0ff",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE    
+},
+
+"#staticThisWeekLblDecrease" : {
+    text: "This Week",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 16
+    },
+    color: "#ff0080",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE    
+},
+
+"#categoryHeaderContainer" : {
+    bottom: 40,
+    left: 0,
+    right: 0,
+    height: 40
+},
+
+"#catContainer" : {
+    layout: 'horizontal',
+    height: 40,
+    width: Ti.UI.SIZE,
+    touchEnabled: false
+},
+
+"#catIcon" : {
+    backgroundImage: "overview/acquisition-icon-bordered.png",
+    width: 40,
+    height: 40
+},
+
+"#catLbl" : {
+    text: 'Acquisition',
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 24
+    },
+    color: "#333",
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE
+},
+
+"#catMetricBg" : {
+    backgroundImage: "overview/acquisition-metric-bg.png",
+    width: Ti.UI.SIZE,
+    height: 38,
+    backgroundLeftCap: 5,
+    backgroundTopCap: 5,
+    layout: 'horizontal'
+},
+
+"#catMetricLbl" : {
+    text: 'Installs',
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 24
+    },
+    color: "#f2f2f2",
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE
+},
+
+"#catMetricLblRange" : {
+    text: 'w/w',
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 24
+    },
+    color: "#b7ff52",
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE
+}

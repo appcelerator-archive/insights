@@ -1,0 +1,4 @@
+"#appWin" : {
+    fullscreen : true,
+    backgroundColor: "#e6e6e6"
+}

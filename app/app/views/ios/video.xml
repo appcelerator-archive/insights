@@ -1,0 +1,23 @@
+<Alloy>
+    <View id="parentContainer">
+        <View id="parentView">
+            <View id="contentContainer">
+                <VideoPlayer id="videoView" />
+                <View id="loadingLblContainer">
+                    <Label id="loadingLbl" />
+                </View>
+            </View>
+            <View id="navContainer">
+                <View id="closeBtn">
+                    <View id="closeIcon" />
+                    <View id="closeIconTouch" />
+                </View>
+                <Label id="titleLbl" />
+                <View id="guideBtn">
+                    <View id="guideIcon" />
+                    <View id="guideIconTouch" />
+                </View>
+            </View>
+        </View>
+    </View>
+</Alloy>

@@ -1,0 +1,30 @@
+<Alloy>
+    <View id="parentView">
+        <ScrollView id="mapScrollView">
+            <View id="mapContainer">
+                <View id="map" />
+                <View id="activeSessionsContainer" />
+            </View>
+        </ScrollView>
+        <View id="sessionCountContainer">
+            <View id="sessionCountYesterdayDescipBg">
+                <View width="5" />
+                <Label id="sessionCountYesterdayDescipLbl" />
+                <View width="5" />
+            </View>
+            <View width="10" />
+            <Label id="sessionCountYesterdayLbl" />
+            <View width="4" />
+            <Label id="sessionCountTodayLbl" />
+            <View width="10" />
+            <View id="sessionCountTodayDescipBg">
+                <View width="5" />
+                <Label id="sessionCountTodayDescipLbl" />
+                <View width="5" />
+            </View>
+        </View>
+        <View id="sessionCurrentCountContainer">
+            <Label id="currentSessionCountLbl" />
+        </View>
+    </View>    
+</Alloy>

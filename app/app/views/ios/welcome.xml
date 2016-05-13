@@ -1,0 +1,13 @@
+<Alloy>
+    <View id="parentView">
+        <View id="contentView">
+            <View id="contentContainer">
+                <View id="welcomeView" />
+            </View>
+            <View id="navContainer">
+                <Label id="videoMsgLbl" />
+                <Label id="videoMsgLblTouch" />
+            </View>
+        </View>
+    </View>
+</Alloy>

@@ -1,0 +1,39 @@
+<Alloy>
+    <View id="parentContainer">
+        <View id="background" />
+        <View id="lightTimeContainer">
+            <Label id="dateLightLbl" class="contentLight" />
+            <View id="lightSpacer01" />
+            <Label id="lightPipe" class="divLight" text="|" />
+            <View id="lightSpacer02" />
+            <Label id="timeHourLightLbl" class="contentLight" />
+            <View id="lightSpacer03" />
+            <Label id="timeDivLight01Lbl" class="divLight" />
+            <View id="lightSpacer04" />
+            <Label id="timeMinuteLightLbl" class="contentLight" />
+            <View id="lightSpacer05" />
+            <Label id="timeDivLight02Lbl" class="divLight" />
+            <View id="lightSpacer06" />
+            <Label id="timeSecondLightLbl" class="contentLight" />
+            <View id="lightSpacer07" />
+            <Label id="timeFormatLightLbl" class="divLight" />
+        </View>
+        <View id="darkTimeContainer">
+            <Label id="dateDarkLbl" class="contentDark" />
+            <View id="darkSpacer01" />
+            <Label id="darkPipe" class="divDark" text="|" />
+            <View id="darkSpacer02" />
+            <Label id="timeHourDarkLbl" class="contentDark" />
+            <View id="darkSpacer03" />
+            <Label id="timeDivDark01Lbl" class="divDark" />
+            <View id="darkSpacer04" />
+            <Label id="timeMinuteDarkLbl" class="contentDark" />
+            <View id="darkSpacer05" />
+            <Label id="timeDivDark02Lbl" class="divDark" />
+            <View id="darkSpacer06" />
+            <Label id="timeSecondDarkLbl" class="contentDark" />
+            <View id="darkSpacer07" />
+            <Label id="timeFormatDarkLbl" class="divDark" />
+        </View>
+    </View>
+</Alloy>

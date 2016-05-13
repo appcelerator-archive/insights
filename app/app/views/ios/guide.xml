@@ -1,0 +1,29 @@
+<Alloy>
+    <View id="parentContainer">
+        <View id="scrollable" />
+        <View id="contentContainer">
+            <View id="contentBg" />
+            <View id="cardsContainer" />
+            <View id="navContainer">
+                <View id="closeBtnContainer">
+                    <View id='closeBtn' />
+                    <View id='closeBtnTouch' />
+                </View>
+                <Label id="cardTitleLbl" />
+                <View id="menuBtnContainer">
+                    <View id="menuPopoverHandler" />
+                    <View id="menuExpandedContainer">
+                        <View id="menuTopBottomIcon" />
+                        <View id="menuMiddleIcon" />
+                    </View>
+                    <View id="menuIconContainer">
+                        <View id="menuBtn" />
+                        <View id="menuBtnTouch" />
+                    </View>
+                </View>
+            </View>
+        </View>
+        <View id="menuContainer" />
+        <View id="pointy" />
+    </View>
+</Alloy>

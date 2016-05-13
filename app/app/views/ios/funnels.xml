@@ -1,0 +1,41 @@
+<Alloy>
+    <View id="parentView">
+        <View id="weekContainer">
+            <Label id="weekLbl" />
+            <View id="rightContainer">
+                <Label id="totalLbl" />
+                <View width="10" />
+                <View id="typeLblContainer">
+                    <View width="5" />
+                    <Label id="typeLbl" />
+                    <View width="5" />
+                </View>
+            </View>
+        </View>
+        
+        <View id="eventScrollViewContainer">
+            <ScrollView id="eventScrollView">
+                <View id="eventContainer" />
+            </ScrollView>
+            <View id="eventScrollViewFadeTop" />
+            <View id="eventScrollViewFadeBottom" />
+        </View>
+
+        <View id="eventGraphContainer" />
+        
+        <View id="selectionArrowContainer">
+            <View id="selectionArrow" />
+            <View id="selectionRange" />
+        </View>
+
+        <View id="topCountContainer">
+            <View id="topCountLblContainer">
+                <View width="10" />
+                <Label id="topCountLbl" />
+                <View width="10" />
+            </View>
+        </View>
+
+        <Label id="loadingDataLbl" />
+    </View>
+</Alloy>

@@ -1,0 +1,43 @@
+<Alloy>
+    <View id="wash" />
+    <View id="orbContainer" />
+    <View id="overviewContainer">
+        <View id="performanceLblContainer">
+            <Label id="lastWeekLbl" />
+            <Label id="thisWeekPercentLbl" />
+            <Label id="thisWeekLbl" />
+        </View>
+        <View id="performanceBarContainer">
+            <View id="lastWeekBg">
+                <Label id="staticLastWeekLbl" />
+            </View>
+            <View id="barContainer">
+                <View id="lastWeekBar" />
+                <View id="thisWeekBarContainer">
+                    <View id="thisWeekBar" />
+                    <View id="thisWeekBarBlip" />
+                </View>
+            </View>
+            <View id="thisWeekBg">
+                <Label id="staticThisWeekLbl" />
+                <Label id="staticThisWeekLblIncrease" />
+                <Label id="staticThisWeekLblDecrease" />
+            </View>
+        </View>
+        <View id="categoryHeaderContainer">
+            <View id="catContainer">
+                <View id="catIcon" />
+                <View width="10" />
+                <Label id="catLbl" />
+                <View width="20" />
+                <View id="catMetricBg">
+                    <View width="15" />
+                    <Label id="catMetricLbl" />
+                    <View width="10" />
+                    <Label id="catMetricLblRange" />
+                    <View width="15" />
+                </View>
+            </View>
+        </View>
+    </View>
+</Alloy>

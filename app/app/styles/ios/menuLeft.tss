@@ -1,0 +1,448 @@
+"#overlayBtnContainer" : {
+    height: 60,
+    width: Ti.UI.SIZE,
+    top: 0,
+    left: 0
+},
+
+"#moreBtnContainer" : {
+    top: 46,
+    width: 19,
+    height: 3,
+    left: 40,
+    touchEnabled: false
+},
+
+"#moreBtnLight" : {
+    width: 19,
+    height: 3,
+    backgroundImage: "nav/more-icon-light.png",
+    touchEnabled: false
+},
+
+"#moreBtnDark" : {
+    width: 19,
+    height: 3,
+    backgroundImage: "nav/more-icon-dark.png",
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+"#moreBtnTouch" : {
+    width: 19,
+    height: 3,
+    backgroundImage: "nav/more-icon-touch@2x.png",
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+"#currentAppNameLblDark" : {
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    top: 38,
+    left: 70,
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 21
+    },
+    color: "#333",
+    touchEnabled: false
+},
+
+"#currentAppNameLblLight" : {
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    top: 38,
+    left: 70,
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 21
+    },
+    color: "#f2f2f2",
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+"#parentContainer" : {
+    width: 335,
+    left: -402,
+    height: Ti.UI.FILL,
+    backgroundImage: "nav/bg.png"
+},
+
+"#menu" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL
+},
+
+"#currentAppInMenuContainer" : {
+    height: 62,
+    left: 10,
+    right: 0,
+    top: 0,
+    opacity: 0.0
+},
+
+"#backBtnContainer" : {
+    width: 14,
+    height: 28,
+    top: 34,
+    left: 43
+},
+
+"#backBtn" : {
+    width: 14,
+    height: 28,
+    backgroundImage: "nav/back-icon-left.png"
+},
+
+"#backBtnTouch" : {
+    width: 14,
+    height: 28,
+    backgroundImage: "nav/back-icon-left-touch.png",
+    opacity: 0.0
+},
+
+"#currentAppInMenuLbl" : {
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    top: 40,
+    left: 70,
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 21
+    },
+    color: "#333"
+},
+
+"#filterContainer" : {
+    top: 95,
+    left: 0,
+    right: 0,
+    height: 50
+},
+
+"#filterBg" : {
+    height: 50,
+    width: Ti.UI.FILL,
+    backgroundColor: "#969696"
+},
+
+"#clearFilterBtn": {
+    left: 10,
+    width: 70,
+    height: 50,
+    opacity: 0.0,
+    backgroundImage: "general/clear-field-icon.png",
+    backgroundSelectedImage: "general/clear-field-icon-touch.png"
+},
+
+"#filterLbl" : {
+    left: 50,
+    width: Ti.UI.SIZE,
+    height: 50,
+    touchEnabled: false,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    },
+    color: "#666",
+    text: "Filter production apps..."
+},
+
+"#filterField" : {
+    left: 80,
+    height: 50,
+    right: 40,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    },
+    color: "#f2f2f2",
+    touchEnabled: false,
+    autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+    autocorrect: false,
+    editable: false,
+    returnKeyType: Ti.UI.RETURNKEY_DONE
+},
+
+"#filterCountContainer" : {
+    width: 47,
+    height: 25,
+    right: 15,
+    touchEnabled: false
+},
+
+"#filterCountBgBlur" : {
+    backgroundImage: 'nav/filtered-count-bg-blur.png',
+    touchEnabled: false,
+    width: 47,
+    height: 25,
+    opacity: 1.0
+},
+
+"#filterCountBgFocus" : {
+    backgroundImage: 'nav/filtered-count-bg.png',
+    touchEnabled: false,
+    width: 47,
+    height: 25,
+    opacity: 0.0
+},
+
+"#filterCountLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    left: 6,
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    bottom: 6,
+    textAlign: "center",
+    color: "#f2f2f2"
+},
+
+"#filterTotalCountLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    right: 5,
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    bottom: 6,
+    textAlign: "center",
+    color: "#666",
+    text: "00"
+},
+
+"#appListContainer" : {
+    top: 145,
+    left: 0,
+    width: Ti.UI.FILL,
+    bottom: 88,
+    backgroundImage: '',
+    separatorStyle:Ti.UI.iPhone.TableViewSeparatorStyle.NONE
+},
+
+"#appListEmptyContainer" : {
+    top: 145,
+    bottom: 88,
+    width: Ti.UI.FILL,
+    opacity: 0.0
+},
+
+"#noAppsLbl" : {
+    color: '#333',
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 16
+    },
+    textAlign: "center",
+    text: "No production apps found...",
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE
+},
+
+"#loginContainer" : {
+    top: 145,
+    bottom: 88,
+    width: Ti.UI.FILL
+},
+
+"#loginLblContainer" : {
+    layout: "vertical",
+    height: Ti.UI.SIZE,
+    left: 50,
+    right: 50
+},
+
+"#loginBtnContainer" : {
+    width: Ti.UI.SIZE,
+    height: 16
+},
+
+"#loginLine01Container" : {
+    layout: "horizontal",
+    height: 16,
+    width: Ti.UI.SIZE
+},
+
+"#loginLbl" : {
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 16
+    },
+    textAlign: "center",
+    text: "Login",
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE
+},
+
+"#loginLblTouch" : {
+    color: "#c41230",
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 16
+    },
+    textAlign: "center",
+    text: "Login",
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    opacity: 0.0
+},
+
+"#loginLbl01" : {
+    color: '#333',
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 16
+    },
+    textAlign: "center",
+    text: "to view your",
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE
+},
+
+"#loginLbl02" : {
+    color: '#333',
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 16
+    },
+    textAlign: "center",
+    text: "production apps...",
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE
+}
+
+"#footerContainer" : {
+    width: Ti.UI.FILL,
+    height: 88,
+    bottom: 0
+},
+
+"#footerBar" : {
+    height: 1,
+    left: 50,
+    right: 0,
+    top: 0,
+    backgroundColor: '#969696'
+},
+
+"#refreshContainer" : {
+    left: 50,
+    width: Ti.UI.SIZE,
+    height: Ti.UI.FILL,
+    bottom: 0
+},
+
+"#refreshIconContainer" : {
+    touchEnabled: false,
+    width: 20,
+    height: Ti.UI.FILL,
+    left: 0
+},
+
+"#refreshIcon" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    backgroundImage: 'nav/refresh-icon.png'
+},
+
+"#refreshIconTouch" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    backgroundImage: 'nav/refresh-icon-touch.png',
+    opacity: 0.0
+},
+
+"#refreshLblContainer" : {
+    layout: 'horizontal',
+    height: 14,
+    left: 38,
+    width: Ti.UI.SIZE,
+    top: 20,
+    touchEnabled: false
+},
+
+"#refreshLbl" : {
+    color: "#666",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    text: "Refresh"
+},
+
+"#refreshDescLbl" : {
+    color: "#666",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    text: "selected app..."
+},
+
+"#lastUpdatedContainer" : {
+    layout: 'horizontal',
+    height: 14,
+    left: 38,
+    width: Ti.UI.SIZE,
+    bottom: 36
+},
+
+"#lastUpdatedDescLbl" : {
+    color: "#666",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    text: "Last updated"
+},
+
+"#lastUpdatedLbl" : {
+    color: "#333",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    text: "--"
+},
+
+"#demoContainer" : {
+    right: 0,
+    height: 88,
+    width: 103
+},
+
+"#demoLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    text: "Demo",
+    color: "#f2f2f2",
+    touchEnabled: false,
+    height: Ti.UI.SIZE,
+    textAlign: "center",
+    right: 20,
+    left: 44,
+    top: 29
+},
+
+"#demoBg" : {
+    backgroundImage: "nav/demo-bg.png",
+    width: 103,
+    height: 88,
+    touchEnabled: false
+},
+
+"#demoBgTouch" : {
+    backgroundImage: "nav/demo-bg-touch.png",
+    width: 103,
+    height: 88,
+    touchEnabled: false,
+    opacity: 0.0
+}

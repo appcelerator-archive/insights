@@ -1,0 +1,42 @@
+"#parentView" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL  
+},
+
+"#contentContainer" : {
+    width: Ti.UI.FILL,
+    top: 0,
+    backgroundImage: "/images/welcome/content-bg.png"
+},
+
+"#welcomeView" : {
+    backgroundImage: "/images/welcome/copy-welcome.png"
+},
+
+"#navContainer" : {
+    width: Ti.UI.FILL,
+    bottom: 0,
+    backgroundImage: "/images/welcome/nav-bg.png"
+},
+
+"#videoMsgLbl" : {
+    height: Ti.UI.FILL,
+    width: Ti.UI.SIZE,
+    text: 'Tap on this card to continue...',
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    color: "#f2f2f2"
+},
+
+"#videoMsgLblTouch" : {
+    height: Ti.UI.FILL,
+    width: Ti.UI.SIZE,
+    text: 'Tap on this card to continue...',
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    color: "#c11b2e",
+    opacity: 0.0
+}
+

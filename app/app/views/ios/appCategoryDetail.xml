@@ -1,0 +1,11 @@
+<Alloy>
+    <View id="parentView">
+        <View id="metricsContainer">
+            <View id="selectedCategoryContainer">
+                <View id="selectedCategoryIconView" />
+                <View width="15" />
+                <Label id="selectedCategoryLbl" />
+            </View>
+        </View>
+    </View>
+</Alloy>

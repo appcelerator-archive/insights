@@ -1,0 +1,158 @@
+"#parentView" : {
+    width: 480,
+    height: 105,
+    top: 36
+},
+
+"#orbsContainer" : {
+    width: 260,
+    height: 50,
+    top: 0,
+    layout: "horizontal"
+},
+
+"#orbAcquisitionContainer" : {
+    category: 'acquisition'
+},
+
+"#orbEngagementContainer" : {
+    category: 'engagement'
+},
+
+"#orbQualityContainer" : {
+    category: 'quality'
+},
+
+"#orbRetentionContainer" : {
+    category: 'retention'
+},
+
+".orbContainer" : {
+    width: 50,
+    height: 50,
+}
+
+".orbView" : {
+    width: 40,
+    height: 40,
+    touchEnabled: false
+},
+
+"#weekCompareContainer" : {
+    top: 60,
+    width: Ti.UI.FILL,
+    height: 18
+},
+
+/* "#lastWeekLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 16
+    },
+    color: "#4b4b4b",
+    text: "Last Week",
+    left: 0,
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE
+},
+
+"#thisWeekLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 16
+    },
+    color: "#089cdf",
+    text: "This Week",
+    right: 0,
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE
+}, */
+
+"#barContainer" : {
+    width: 320,
+    height: 1,
+    top: 9,
+    touchEnabled: false
+}
+
+"#lastWeekBarView" : {
+    left: 0,
+    right: 0,
+    height: 1,
+    backgroundColor: "#4b4b4b"
+},
+
+"#thisWeekBarView" : {
+    width: 160,
+    right: 0,
+    height: 1,
+    backgroundColor: "#089cdf"
+},
+
+"#thisWeekContainer" : {
+    layout: "horizontal",
+    width: Ti.UI.SIZE,
+    height: 24,
+    bottom: 0
+},
+
+"#primaryMetricContainer" : {
+    backgroundImage: 'detail/primary-metric-acquisition-bg.png',
+    backgroundTopCap: 5,
+    backgroundLeftCap: 5,
+    height: 20,
+    width: Ti.UI.SIZE,
+    layout: "horizontal",
+    touchEnabled: false
+},
+
+"#primaryMetricLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    width: Ti.UI.SIZE,
+    height: 12,
+    color: "#f2f2f2",
+    text: "Installs"
+},
+
+"#thisWeekTotalLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 24
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#f2f2f2",
+    text: "0",
+    touchEnabled: false
+},
+
+"#dividerLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 24
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#4b4b4b",
+    text: "/",
+    touchEnabled: false
+}
+
+"#percentLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 24
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#089cdf",
+    text: "0%",
+    touchEnabled: false
+},
+
+".spacers" : {
+    touchEnabled: false
+}

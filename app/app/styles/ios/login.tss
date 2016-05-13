@@ -1,0 +1,394 @@
+"#parentContainer" : {
+    height: Ti.UI.FILL,
+    opacity: 0.0
+},
+
+"#touch" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+},
+
+"#loginWrapper" : {
+    width: 325,
+    height: Ti.UI.FILL,
+    backgroundImage: "login/bg.png",
+    opacity: 0.0
+},
+
+"#learnMoreContentContainer" : {
+    width: Ti.UI.FILL,
+    opacity: 0.0,
+    layout: 'vertical'  
+},
+
+"#logoHeader" : {
+    touchEnabled: false,
+    backgroundImage: "login/appc-header.png",
+    width: 325,
+    height: 105
+},
+
+"#copyTop" : {
+    touchEnabled: false,
+    width: Ti.UI.FILL,
+    height: 254,
+    backgroundImage: "login/copy-top.png"
+},
+
+"#copyLearnMoreBtnContainer" : {
+    width: 325,
+    height: 48
+},
+
+"#copyLearnMoreBtn" : {
+    width: 325,
+    height: 48,
+    backgroundImage: "login/copy-learn-more.png"
+},
+
+"#copyLearnMoreBtnTouch" : {
+    width: 325,
+    height: 48,
+    backgroundImage: "login/copy-learn-more-touch.png",
+    opacity: 0.0
+},
+
+"#copyEmailUsBtnContainer" : {
+    width: 325,
+    height: 48
+},
+
+"#copyEmailUsBtn" : {
+    width: 325,
+    height: 48,
+    backgroundImage: "login/copy-email-us.png"     
+},
+
+"#copyEmailUsBtnTouch" : {
+    width: 325,
+    height: 48,
+    backgroundImage: "login/copy-email-us-touch.png",
+    opacity: 0.0     
+},
+
+"#copyBottom" : {
+    touchEnabled: false,
+    width: 325,
+    height: 212,
+    backgroundImage: "login/copy-bottom.png"
+},
+
+"#returnToLoginBtnContainer" : {
+    width: 325,
+    height: 44,
+    opacity: 0.0    
+},
+
+"#returnToLoginBtn" : {
+    width: 325,
+    height: 44,
+    backgroundImage: "login/direction-hint-icon.png"
+},
+
+"#returnToLoginBtnTouch" : {
+    width: 325,
+    height: 44,
+    backgroundImage: "login/direction-hint-icon-touch.png",
+    opacity: 0.0    
+},
+
+"#loginContentContainer" : {
+    width: Ti.UI.FILL,
+    height: Ti.Platform.displayCaps.platformHeight
+},
+
+"#loginContentWrapper" : {
+    width: Ti.UI.FILL,
+    height: 310
+},
+
+"#logoContainer" : {
+    top: 0,
+    width: 80,
+    height: 66,
+    touchEnabled: false
+},
+
+"#logoGray" : {
+    backgroundImage: "login/appc-logo-gray.png",
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL
+},
+
+"#platformLbl" : {
+    touchEnabled: false,
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 20
+    },
+    color: "#666",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    textAlign: "center",
+    top: 84,
+    text: "The Appcelerator Platform"
+},
+
+"#fieldContainer" : {
+    height: 190,
+    width: Ti.UI.FILL,
+    top: 140
+},
+
+"#usernameValidInd" : {
+    width: 50,
+    height: 50,
+    right: 10,
+    opacity: 0.0,
+    backgroundImage: "login/field-valid-icon.png"  
+},
+
+"#loginBtn" : {
+    width: 50,
+    height: 50,
+    right: 10,
+    opacity: 0.0,
+    backgroundImage: "login/login-icon.png",
+    bubbleParent: false
+},
+
+"#usernameBg" : {
+    height: 50,
+    width: Ti.UI.FILL,
+    backgroundColor: "#969696",
+    top:0
+},
+
+"#passwordBg" : {
+    height: 50,
+    width: Ti.UI.FILL,
+    top: 70,
+    backgroundColor: "#969696"
+},
+
+"#domainBg" : {
+    opacity: 0.0,
+    height: 50,
+    width: Ti.UI.FILL,
+    top: 140,
+    backgroundColor: "#969696"
+},
+
+"#clearUsernameBtn": {
+    left: 0,
+    width: 70,
+    height: 50,
+    top: 0,
+    opacity: 0.0,
+    backgroundImage: "general/clear-field-icon.png",
+    backgroundSelectedImage: "general/clear-field-icon-touch.png"
+},
+
+"#clearPasswordBtn": {
+    left: 0,
+    width: 70,
+    height: 50,
+    top: 70,
+    opacity: 0.0,
+    backgroundImage: "general/clear-field-icon.png",
+    backgroundSelectedImage: "general/clear-field-icon-touch.png"
+},
+
+"#clearDomainBtn": {
+    left: 0,
+    width: 70,
+    height: 50,
+    opacity: 0.0,
+    backgroundImage: "general/clear-field-icon.png",
+    backgroundSelectedImage: "general/clear-field-icon-touch.png",
+    bubbleParent: false,
+    id: 'clearDomainBtn'
+},
+
+"#usernameLbl" : {
+    top: 0,
+    left: 40,
+    width: Ti.UI.SIZE,
+    height: 50,
+    touchEnabled: false,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    },
+    color: "#666",
+    text: "Username..."
+},
+
+"#passwordLbl" : {
+    top: 70,
+    left: 40,
+    width: Ti.UI.SIZE,
+    height: 50,
+    touchEnabled: false,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    },
+    color: "#666",
+    text: "Password..."
+},
+
+"#domainFieldLbl" : {
+    left: 40,
+    width: Ti.UI.SIZE,
+    height: 50,
+    touchEnabled: false,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    },
+    color: "#666",
+    text: "dashboard.appcelerator.com"
+},
+
+"#usernameField" : {
+    top: 0,
+    left: 70,
+    height: 50,
+    right: 40,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    },
+    color: "#f2f2f2",
+    touchEnabled: false,
+    autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+    autocorrect: false,
+    editable: false,
+    suppressReturn: false,
+    enableReturnKey: true,
+    returnKeyType: Ti.UI.RETURNKEY_NEXT, 
+    keyboardType: Ti.UI.KEYBOARD_EMAIL
+},
+
+"#passwordField" : {
+    top: 70,
+    left: 70,
+    height: 50,
+    right: 40,
+    font: {
+        fontFamily: "HelveticaNeue-Light",
+        fontSize: 14
+    },
+    color: "#f2f2f2",
+    touchEnabled: false,
+    autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+    autocorrect: false,
+    editable: false,
+    passwordMask: true,
+    suppressReturn: false,
+    enableReturnKey: true,
+    returnKeyType: Ti.UI.RETURNKEY_NEXT
+},
+
+"#lockIcon" : {
+    right: 0,
+    height: 50,
+    width: 50,
+    backgroundImage: 'login/login-lock-icon.png',
+    touchEnabled: false
+},
+
+"#domainField" : {
+    left: 70,
+    height: 50,
+    right: 50,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    },
+    color: "#f2f2f2",
+    touchEnabled: false,
+    autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+    autocorrect: false,
+    editable: false,
+    suppressReturn: false,
+    enableReturnKey: true,
+    returnKeyType: Ti.UI.RETURNKEY_NEXT, 
+    keyboardType: Ti.UI.KEYBOARD_URL
+},
+
+"#moreContainer" : {
+    height: 45,
+    bottom: 0,
+    width: Ti.UI.SIZE,
+    layout: "horizontal"
+},
+
+"#domainContainer" : {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.FILL
+},
+
+"#domainLbl" : {
+    text: "Change Domain",
+    color: "#f2f2f2",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SISE,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    }
+},
+
+"#domainLblTouch" : {
+    text: "Change Domain",
+    color: "#c41230",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SISE,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    },
+    opacity: 0.0
+},
+
+"#morePipeLbl" : {
+    text: "|",
+    color: "#666",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SISE,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    },
+    touchEnabled: false
+},
+
+"#cancelContainer" : {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.FILL    
+},
+
+"#cancelLbl" : {
+    text: "Cancel Login",
+    color: "#f2f2f2",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SISE,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    }
+},
+
+"#cancelLblTouch" : {
+    text: "Cancel Login",
+    color: "#c41230",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SISE,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    },
+    opacity: 0.0
+}

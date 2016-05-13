@@ -1,0 +1,850 @@
+{
+    "sessions": {
+        "current": [{
+            "lat": 52.520007,
+            "lng": 13.404954,
+            "count": 1
+        }, {
+            "lat": 52.520007,
+            "lng": 13.404954,
+            "count": 4
+        }, {
+            "lat": 52.520007,
+            "lng": 13.404954,
+            "count": 8
+        }, {
+            "lat": 52.520007,
+            "lng": 13.404954,
+            "count": 20
+        }, {
+            "lat": 41.878114,
+            "lng": -87.629798,
+            "count": 2
+        }, {
+            "lat": 41.878114,
+            "lng": -87.629798,
+            "count": 42
+        }, {
+            "lat": 42.358431,
+            "lng": -71.059773,
+            "count": 11
+        }, {
+            "lat": 40.200537,
+            "lng": -102.812500,
+            "count": 16
+        }, {
+            "lat": 40.200537,
+            "lng": -102.812500,
+            "count": 8
+        }, {
+            "lat": 40.200537,
+            "lng": -102.812500,
+            "count": 4
+        }, {
+            "lat": 40.200537,
+            "lng": -102.812500,
+            "count": 18
+        }, {
+            "lat": 40.200537,
+            "lng": -102.812500,
+            "count": 2
+        }, {
+            "lat": 40.200537,
+            "lng": -102.812500,
+            "count": 1
+        }, {
+            "lat": 34.420831,
+            "lng": -119.698190,
+            "count": 4
+        }, {
+            "lat": 34.055150,
+            "lng": -118.239308,
+            "count": 21
+        }, {
+            "lat": 34.052234,
+            "lng": -118.243685,
+            "count": 32
+        }, {
+            "lat": 34.052234,
+            "lng": -118.243685,
+            "count": 4
+        }, {
+            "lat": 34.052234,
+            "lng": -118.243685,
+            "count": 28
+        }, {
+            "lat": 34.052234,
+            "lng": -118.243685,
+            "count": 12
+        }, {
+            "lat": 34.052234,
+            "lng": -118.243685,
+            "count": 5
+        }, {
+            "lat": 40.719037,
+            "lng": -74.001961,
+            "count": 13
+        }, {
+            "lat": 40.716825,
+            "lng": -74.009664,
+            "count": 2
+        }, {
+            "lat": 40.714353,
+            "lng": -74.005973,
+            "count": 16
+        }, {
+            "lat": 30.294041,
+            "lng": -97.684415,
+            "count": 24
+        }, {
+            "lat": 30.289298,
+            "lng": -97.765096,
+            "count": 33
+        }, {
+            "lat": 30.269137,
+            "lng": -97.736600,
+            "count": 40
+        }, {
+            "lat": 32.897450,
+            "lng": -97.073644,
+            "count": 9
+        }, {
+            "lat": 30.068488,
+            "lng": -94.239171,
+            "count": 4
+        }, {
+            "lat": 29.146752,
+            "lng": -95.513585,
+            "count": 2
+        }, {
+            "lat": 29.978122,
+            "lng": -95.260900,
+            "count": 7
+        }, {
+            "lat": 29.860285,
+            "lng": -95.497106,
+            "count": 14
+        }, {
+            "lat": 29.878148,
+            "lng": -95.270513,
+            "count": 18
+        }, {
+            "lat": 29.693409,
+            "lng": -95.479253,
+            "count": 23
+        }, {
+            "lat": 29.7628,
+            "lng": -95.3831,
+            "count": 4
+        }, {
+            "lat": 37.3860517,
+            "lng": -122.0838511,
+            "count": 15
+        }, {
+            "lat": 37.3860517,
+            "lng": -122.0838511,
+            "count": 17
+        }, {
+            "lat": 37.3860517,
+            "lng": -122.0838511,
+            "count": 12
+        }, {
+            "lat": 37.3860517,
+            "lng": -122.0838511,
+            "count": 6
+        }, {
+            "lat": 37.3860517,
+            "lng": -122.0838511,
+            "count": 3
+        }, {
+            "lat": 35.6894875,
+            "lng": 139.6917064,
+            "count": 1
+        }, {
+            "lat": 51.5112139,
+            "lng": -0.1198244,
+            "count": 4
+        }, {
+            "lat": 51.5112139,
+            "lng": -0.1198244,
+            "count": 19
+        }, {
+            "lat": 51.5112139,
+            "lng": -0.1198244,
+            "count": 21
+        }, {
+            "lat": 51.5112139,
+            "lng": -0.1198244,
+            "count": 28
+        }, {
+            "lat": 51.5112139,
+            "lng": -0.175781,
+            "count": 12
+        }, {
+            "lat": 51.495065,
+            "lng": -0.1198244,
+            "count": 4
+        }, {
+            "lat": 37.9837155,
+            "lng": 23.7293097,
+            "count": 7
+        }, {
+            "lat": 41.8929163,
+            "lng": 12.4825199,
+            "count": 8
+        }, {
+            "lat": 40.4169,
+            "lng": 3.7036,
+            "count": 14
+        }, {
+            "lat": 35.0000,
+            "lng": 103.0000,
+            "count": 36
+        }, {
+            "lat": 10.6500,
+            "lng": 52.9500,
+            "count": 4
+        }, {
+            "lat": 40.6700,
+            "lng": 73.9400,
+            "count": 4
+        }, {
+            "lat": 41.8819,
+            "lng": 82.6278,
+            "count": 19
+        }, {
+            "lat": 40.572240,
+            "lng": -73.959961,
+            "count": 15
+        }, {
+            "lat": 40.572240,
+            "lng": -73.959961,
+            "count": 27
+        }, {
+            "lat": 40.572240,
+            "lng": -73.959961,
+            "count": 32
+        }, {
+            "lat": 40.572240,
+            "lng": -73.959961,
+            "count": 3
+        }, {
+            "lat": 40.572240,
+            "lng": -73.959961,
+            "count": 4
+        }, {
+            "lat": 40.572240,
+            "lng": -73.959961,
+            "count": 7
+        }, {
+            "lat": 40.572240,
+            "lng": -73.959961,
+            "count": 9
+        }, {
+            "lat": 25.778871,
+            "lng": -80.211182,
+            "count": 6
+        }, {
+            "lat": 25.778871,
+            "lng": -80.211182,
+            "count": 40
+        }, {
+            "lat": 25.778871,
+            "lng": -80.211182,
+            "count": 41
+        }, {
+            "lat": 25.778871,
+            "lng": -80.211182,
+            "count": 22
+        }, {
+            "lat": 25.778871,
+            "lng": -80.211182,
+            "count": 24
+        }, {
+            "lat": 25.778871,
+            "lng": -80.211182,
+            "count": 12
+        }, {
+            "lat": 25.778871,
+            "lng": -80.211182,
+            "count": 16
+        }, {
+            "lat": 25.778871,
+            "lng": -80.211182,
+            "count": 7
+        }, {
+            "lat": 25.778871,
+            "lng": -80.211182,
+            "count": 5
+        }, {
+            "lat": 29.759609,
+            "lng": -95.295410,
+            "count": 4
+        }, {
+            "lat": 29.759609,
+            "lng": -95.295410,
+            "count": 13
+        }, {
+            "lat": 29.759609,
+            "lng": -95.295410,
+            "count": 3
+        }, {
+            "lat": 29.759609,
+            "lng": -95.395410,
+            "count": 24
+        }, {
+            "lat": 29.759609,
+            "lng": -95.395410,
+            "count": 17
+        }, {
+            "lat": 35.726447,
+            "lng": 139.713135,
+            "count": 31
+        }, {
+            "lat": 35.726447,
+            "lng": 139.713135,
+            "count": 4
+        }, {
+            "lat": 35.726447,
+            "lng": 139.713135,
+            "count": 5
+        }, {
+            "lat": 35.726447,
+            "lng": 139.713135,
+            "count": 6
+        }, {
+            "lat": 35.726447,
+            "lng": 139.713135,
+            "count": 3
+        }, {
+            "lat": 35.726447,
+            "lng": 139.813135,
+            "count": 20
+        }, {
+            "lat": 35.726447,
+            "lng": 139.813135,
+            "count": 24
+        }, {
+            "lat": 35.726447,
+            "lng": 139.813135,
+            "count": 33
+        }, {
+            "lat": 27.678664,
+            "lng": 77.695313,
+            "count": 18
+        }, {
+            "lat": 27.678664,
+            "lng": 77.695313,
+            "count": 4
+        }, {
+            "lat": 27.678664,
+            "lng": 77.695313,
+            "count": 7
+        }, {
+            "lat": 27.678664,
+            "lng": 77.695313,
+            "count": 1
+        }, {
+            "lat": 27.778664,
+            "lng": 77.695313,
+            "count": 14
+        }, {
+            "lat": 27.778664,
+            "lng": 77.695313,
+            "count": 26
+        }, {
+            "lat": 27.778664,
+            "lng": 77.695313,
+            "count": 22
+        }, {
+            "lat": 27.778664,
+            "lng": 77.695313,
+            "count": 36
+        }, {
+            "lat": 40.426042,
+            "lng": -3.713379,
+            "count": 25
+        }, {
+            "lat": 40.426042,
+            "lng": -3.713379,
+            "count": 6
+        }, {
+            "lat": 40.426042,
+            "lng": -3.713379,
+            "count": 7
+        }, {
+            "lat": -23.614329,
+            "lng": -46.625977,
+            "count": 2
+        }, {
+            "lat": -23.614329,
+            "lng": -46.625977,
+            "count": 9
+        }, {
+            "lat": -23.614329,
+            "lng": -46.625977,
+            "count": 13
+        }, {
+            "lat": -33.916013,
+            "lng": 151.259766,
+            "count": 18
+        }, {
+            "lat": -33.916013,
+            "lng": 151.259766,
+            "count": 4
+        }, {
+            "lat": -33.916013,
+            "lng": 151.259766,
+            "count": 17
+        }, {
+            "lat": -33.916013,
+            "lng": 151.259766,
+            "count": 28
+        }, {
+            "lat": -33.916013,
+            "lng": 151.259766,
+            "count": 21
+        }, {
+            "lat": -33.916013,
+            "lng": 151.259766,
+            "count": 41
+        }, {
+            "lat": 1.278428,
+            "lng": 103.831787,
+            "count": 24
+        }, {
+            "lat": 1.278428,
+            "lng": 103.831787,
+            "count": 37
+        }, {
+            "lat": 1.278428,
+            "lng": 103.831787,
+            "count": 1
+        }, {
+            "lat": 1.278428,
+            "lng": 103.831787,
+            "count": 3
+        }, {
+            "lat": 1.278428,
+            "lng": 103.831787,
+            "count": 8
+        }],
+        "currentTotal": 1535,
+        "yesterday": 3304,
+        "today": 1983
+    },
+    "categories": {
+        "acquisition": {
+            "name": "Acquisition",
+            "thisWeek": 600,
+            "lastWeek": 400,
+            "direction": 1,
+            "defaultMetric": "installs",
+            "metrics": {
+                "installs": {
+                    "name": "Installs",
+                    "type": "standard",
+                    "range": [{
+                        "name": "Current Quarter",
+                        "total": 2000
+                    }, {
+                        "name": "Current Month",
+                        "total": 1000
+                    }],
+                    "platform": [{
+                        "name": "iOS",
+                        "total": 325
+                    }, {
+                        "name": "Android",
+                        "total": 225
+                    }, {
+                        "name": "Blackberry",
+                        "total": 50
+                    }, {
+                        "name": "Mobileweb",
+                        "total": 0
+                    }, {
+                        "name": "Tizen",
+                        "total": 0
+                    }, {
+                        "name": "Windows",
+                        "total": 0
+                    }],
+                    "last7Days": 600,
+                    "weekByDays": [190, 110, 40, 70, 32, 138, 120],
+                    "direction": 1
+                },
+                "pushDevices": {
+                    "name": "Total Push Devices",
+                    "type": "standard",
+                    "range": [{
+                        "name": "Current Quarter",
+                        "total": 143
+                    }, {
+                        "name": "Current Month",
+                        "total": 97
+                    }],
+                    "platform": [{
+                        "name": "iOS",
+                        "total": 80
+                    }, {
+                        "name": "Android",
+                        "total": 17
+                    }, {
+                        "name": "Blackberry",
+                        "total": 0
+                    }, {
+                        "name": "Mobileweb",
+                        "total": 0
+                    }, {
+                        "name": "Tizen",
+                        "total": 0
+                    }, {
+                        "name": "Windows",
+                        "total": 0
+                    }],
+                    "last7Days": 17,
+                    "weekByDays": [80, 82, 85, 90, 91, 93, 97],
+                    "direction": -1
+                }
+            },
+            "funnels": []
+        },
+        "engagement": {
+            "name": "Engagement",
+            "thisWeek": 300000,
+            "lastWeek": 120000,
+            "direction": 1,
+            "defaultMetric": "sessionLength",
+            "metrics": {
+                "sessions": {
+                    "name": "Total Sessions",
+                    "type": "standard",
+                    "range": [{
+                        "name": "Current Quarter",
+                        "total": 4000
+                    }, {
+                        "name": "Current Month",
+                        "total": 2080
+                    }],
+                    "platform": [{
+                        "name": "iOS",
+                        "total": 1800
+                    }, {
+                        "name": "Android",
+                        "total": 280
+                    }, {
+                        "name": "Blackberry",
+                        "total": 0
+                    }, {
+                        "name": "Mobileweb",
+                        "total": 0
+                    }, {
+                        "name": "Tizen",
+                        "total": 0
+                    }, {
+                        "name": "Windows",
+                        "total": 0
+                    }],
+                    "last7Days": 0,
+                    "weekByDays": [300, 500, 150, 200, 400, 300, 230],
+                    "direction": -1
+                },
+                "sessionLength": {
+                    "name": "Avg Session Length",
+                    "type": "standard",
+                    "range": [{
+                        "name": "Current Quarter",
+                        "total": 400000
+                    }, {
+                        "name": "Current Month",
+                        "total": 300000
+                    }],
+                    "platform": [{
+                        "name": "iOS",
+                        "total": 500000
+                    }, {
+                        "name": "Android",
+                        "total": 200000
+                    }, {
+                        "name": "Blackberry",
+                        "total": 0
+                    }, {
+                        "name": "Mobileweb",
+                        "total": 0
+                    }, {
+                        "name": "Tizen",
+                        "total": 0
+                    }, {
+                        "name": "Windows",
+                        "total": 0
+                    }],
+                    "last7Days": 325.14285714,
+                    "weekByDays": [400, 700, 100, 200, 300, 256, 320],
+                    "direction": 1
+                }
+            },
+            "funnels": [{
+                "name": "Product Sell",
+                "id": "productsell001",
+                "type": "funnel",
+                "index": 0,
+                "updated": 1403985721298,
+                "range": [{
+                    "name": "Current Quarter",
+                    "total": 60.2
+                }, {
+                    "name": "Current Month",
+                    "total": 59.8
+                }],
+                "events": [{
+                    "name": "login",
+                    "count": 5500,
+                    "incoming": 100,
+                    "dropOff": 38   
+                }, {
+                    "name": "create_product",
+                    "count": 3400,
+                    "incoming": 62,
+                    "dropOff": 12   
+                }, {
+                    "name": "review_created_product",
+                    "count": 3000,
+                    "incoming": 88,
+                    "dropOff": "--"   
+                }],
+                "last7Days": 54.6
+            },{
+                "name": "Product Purchase",
+                "id": "productpurchase002",
+                "type": "funnel",
+                "index": 1,
+                "updated": 1403985721298,
+                "range": [{
+                    "name": "Current Quarter",
+                    "total": 2
+                }, {
+                    "name": "Current Month",
+                    "total": 5
+                }],
+                "events": [{
+                    "name": "login",
+                    "count": 3000,
+                    "incoming": 100,
+                    "dropOff": 17   
+                }, {
+                    "name": "product_search",
+                    "count": 2500,
+                    "incoming": 83,
+                    "dropOff": 20   
+                }, {
+                    "name": "product_info",
+                    "count": 2000,
+                    "incoming": 80,
+                    "dropOff": 85   
+                }, {
+                    "name": "purchase",
+                    "count": 300,
+                    "incoming": 15,
+                    "dropOff": 33   
+                }, {
+                    "name": "enter_cc",
+                    "count": 200,
+                    "incoming": 67,
+                    "dropOff": 5   
+                }, {
+                    "name": "purchase_confirm",
+                    "count": 190,
+                    "incoming": 95,
+                    "dropOff": "--"   
+                }],
+                "last7Days": 10.5
+            }]
+        },
+        "quality": {
+            "name": "Quality",
+            "thisWeek": 60000,
+            "lastWeek": 80000,
+            "direction": -1,
+            "defaultMetric": "crashFrequency",
+            "metrics": {
+                "crashFrequency": {
+                    "name": "Crash Frequency",
+                    "type": "standard",
+                    "range": [{
+                        "name": "Current Quarter",
+                        "total": 30000
+                    }, {
+                        "name": "Current Month",
+                        "total": 250000
+                    }],
+                    "platform": [{
+                        "name": "iOS",
+                        "total": 40000
+                    }, {
+                        "name": "Android",
+                        "total": 20000
+                    }, {
+                        "name": "Blackberry",
+                        "total": 0
+                    }, {
+                        "name": "Mobileweb",
+                        "total": 0
+                    }, {
+                        "name": "Tizen",
+                        "total": 0
+                    }, {
+                        "name": "Windows",
+                        "total": 0
+                    }],
+                    "last7Days": 60000,
+                    "weekByDays": [32000, 28000, 23000, 36000, 32000, 40000, 22000],
+                    "direction": -1
+                },
+                "sessionsOverCrashes": {
+                    "name": "Sessions / Crashes",
+                    "type": "standard",
+                    "range": [{
+                        "name": "Current Quarter",
+                        "total": 200
+                    }, {
+                        "name": "Current Month",
+                        "total": 167
+                    }],
+                    "platform": [{
+                        "name": "iOS",
+                        "total": 20
+                    }, {
+                        "name": "Android",
+                        "total": 80
+                    }, {
+                        "name": "Blackberry",
+                        "total": 0
+                    }, {
+                        "name": "Mobileweb",
+                        "total": 0
+                    }, {
+                        "name": "Tizen",
+                        "total": 0
+                    }, {
+                        "name": "Windows",
+                        "total": 0
+                    }],
+                    "last7Days": 108.57,
+                    "weekByDays": [130, 120, 110, 100, 80, 50, 170],
+                    "direction": 1
+                },
+                "uniqueCrashes": {
+                    "name": "Unique Crashes",
+                    "type": "standard",
+                    "range": [{
+                        "name": "Current Quarter",
+                        "total": 20
+                    }, {
+                        "name": "Current Month",
+                        "total": 10
+                    }],
+                    "platform": [{
+                        "name": "iOS",
+                        "total": 9
+                    }, {
+                        "name": "Android",
+                        "total": 1
+                    }, {
+                        "name": "Blackberry",
+                        "total": 0
+                    }, {
+                        "name": "Mobileweb",
+                        "total": 0
+                    }, {
+                        "name": "Tizen",
+                        "total": 0
+                    }, {
+                        "name": "Windows",
+                        "total": 0
+                    }],
+                    "last7Days": 0,
+                    "weekByDays": [2, 0, 4, 2, 1, 1, 0],
+                    "direction": 1
+                }
+            },
+            "funnels": []
+        },
+        "retention": {
+            "name": "Retention",
+            "thisWeek": 68,
+            "lastWeek": 60,
+            "direction": 1,
+            "defaultMetric": "retentionRate",
+            "metrics": {
+                "retentionRate": {
+                    "name": "Retention Rate",
+                    "type": "standard",
+                    "range": [{
+                        "name": "Current Quarter",
+                        "total": 56
+                    }, {
+                        "name": "Current Month",
+                        "total": 70
+                    }],
+                    "platform": [{
+                        "name": "iOS",
+                        "total": 60
+                    }, {
+                        "name": "Android",
+                        "total": 40
+                    }, {
+                        "name": "Blackberry",
+                        "total": 0
+                    }, {
+                        "name": "Mobileweb",
+                        "total": 0
+                    }, {
+                        "name": "Tizen",
+                        "total": 0
+                    }, {
+                        "name": "Windows",
+                        "total": 0
+                    }],
+                    "last7Days": 70,
+                    "weekByDays": [70, 70, 70, 70, 70, 70, 70],
+                    "direction": "1"
+                },
+                "uniqueDevices": {
+                    "name": "Unique Devices",
+                    "type": "standard",
+                    "range": [{
+                        "name": "Current Quarter",
+                        "total": 200
+                    }, {
+                        "name": "Current Month",
+                        "total": 250
+                    }],
+                    "platform": [{
+                        "name": "iOS",
+                        "total": 204
+                    }, {
+                        "name": "Android",
+                        "total": 46
+                    }, {
+                        "name": "Blackberry",
+                        "total": 0
+                    }, {
+                        "name": "Mobileweb",
+                        "total": 0
+                    }, {
+                        "name": "Tizen",
+                        "total": 0
+                    }, {
+                        "name": "Windows",
+                        "total": 0
+                    }],
+                    "last7Days": 0,
+                    "weekByDays": [100, 300, 200, 166, 201, 350, 289],
+                    "direction": 1
+                }
+            },
+            "funnels": []
+        }
+    }
+}

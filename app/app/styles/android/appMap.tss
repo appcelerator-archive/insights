@@ -1,0 +1,105 @@
+"#parentView" : {
+    backgroundColor : '#e6e6e6',
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL
+},
+
+"#mapScrollView" : {
+    width           : Ti.UI.FILL,
+    height          : Ti.UI.FILL
+},
+
+"#map" : {
+    backgroundImage: '/images/map/map-bg.png'
+},
+
+// #ATEMP
+// "#activeSessionsContainer" : {
+//     width  : 1126,
+//     height : 845
+// },
+
+"#sessionCountYesterdayDescipBg" : {
+    layout: "horizontal",
+    backgroundImage: "/images/map/count-bg.png",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.FILL   
+},
+
+"#sessionCountYesterdayDescipLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    width: Ti.UI.SIZE,
+    color: "#f2f2f2",
+    text: "Yesterday",
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#sessionCountContainer" : {
+    width: Ti.UI.SIZE,
+    opacity: 0.0,
+    layout: "horizontal"
+},
+
+"#sessionCountYesterdayLbl" : {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    color: "#999",
+    text: "0 /",
+    touchEnabled: false, // #WORKAROUND
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#sessionCountTodayDescipBg" : {
+    layout: "horizontal",
+    backgroundImage: "/images/map/count-bg.png",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.FILL    
+},
+
+"#sessionCountTodayDescipLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    width: Ti.UI.SIZE,
+    color: "#f2f2f2",
+    text: "Today",
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#sessionCountContainer01" : {
+    touchEnabled: false // #WORKAROUND
+},
+
+"#sessionCountTodayLbl" : {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    color: "#ff0080",
+    text: "0",
+    touchEnabled: false, // #WORKAROUND
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#sessionCurrentCountContainer" : {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE
+},
+
+"#currentSessionCountLbl" : {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    color: "#333",
+    text: "0",
+    touchEnabled: false, // #WORKAROUND
+    includeFontPadding: false // #WORKAROUND
+}

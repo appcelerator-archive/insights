@@ -1,0 +1,34 @@
+"#parentView" : {
+    width: 620,
+    height: 140,
+    left: 0
+},
+
+"#metricScrollView" : {
+    width: 620,
+    height: Ti.UI.FILL,
+    contentWidth: "auto",
+    layout: "horizontal"
+},
+
+"#metricContainer" : {
+    width: 10000, // #BUG
+    height: 140,
+    layout: "horizontal"
+},
+
+"#leftShadow" : {
+    left: 0,
+    width: 20,
+    height: Ti.UI.FILL,
+    backgroundImage: "detail/metric-shadow-left.png",
+    touchEnabled: false
+},
+
+"#rightShadow" : {
+    right: 0,
+    width: 20,
+    height: Ti.UI.FILL,
+    backgroundImage: "detail/metric-shadow-right.png",
+    touchEnabled: false
+}

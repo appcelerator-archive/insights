@@ -1,0 +1,101 @@
+"#parentContainer" : {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL    
+},
+
+"#parentView" : {
+    width: 840,
+    height: 540,
+    opacity: 0.0
+},
+
+"#contentContainer" : {
+    height: 490,
+    width: Ti.UI.FILL,
+    top: 0,
+    backgroundImage: "video/content-bg.png"
+},
+
+"#videoView" : {
+    width: 800,
+    height: 450,
+    backgroundColor: "#000"  
+},
+
+"#loadingLblContainer" : {
+    backgroundColor: "#000",
+    width: 800,
+    height: 450  
+},
+
+"#loadingLbl" : {
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    text: 'Loading Video...',
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 24
+    },
+    color: "#f2f2f2"
+}
+
+"#navContainer" : {
+    height: 50,
+    width: Ti.UI.FILL,
+    bottom: 0,
+    backgroundImage: "video/nav-bg.png"
+},
+
+"#closeBtn" : {
+    width: 50,
+    height: 50,
+    left: 0
+},
+
+"#closeIcon" : {
+    width: 50,
+    height: 50,
+    backgroundImage: "video/close-icon.png",
+    touchEnabled: false
+},
+
+"#closeIconTouch" : {
+    width: 50,
+    height: 50,
+    backgroundImage: "video/close-icon-touch.png",
+    touchEnabled: false,
+    opacity: 0.0
+},
+
+"#titleLbl" : {
+    height: Ti.UI.FILL,
+    width: Ti.UI.SIZE,
+    text: 'Appcelerator Insights Overview',
+    left: 50,
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 14
+    },
+    color: "#f2f2f2"
+},
+
+"#guideBtn" : {
+    width: 50,
+    height: 50,
+    right: 0
+},
+
+"#guideIcon" : {
+    width: 50,
+    height: 50,
+    backgroundImage: "video/guide-icon.png",
+    touchEnabled: false
+},
+
+"#guideIconTouch" : {
+    width: 50,
+    height: 50,
+    backgroundImage: "video/guide-icon-touch.png",
+    touchEnabled: false,
+    opacity: 0.0
+}

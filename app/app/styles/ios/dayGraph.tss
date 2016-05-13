@@ -1,0 +1,256 @@
+"#parentView" : {
+    left: 40,
+    width: 452,
+    height: 404,
+    top: 167
+},
+
+"#totalContainer" : {
+    left: 60,
+    top: 0,
+    height: Ti.UI.SIZE,
+    width: Ti.UI.SIZE,
+    layout: "horizontal"
+},
+
+"#weekLbl" : {
+    color: "#4d4d4d",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 16
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    touchEnabled: false,
+    text: "Last 7 Days"
+},
+
+"#totalLbl" : {
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 20
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    touchEnabled: false,
+    text: "8383819"
+},
+
+"#primaryMetricContainer" : {
+    backgroundImage: 'detail/primary-metric-bg.png',
+    backgroundTopCap: 5,
+    backgroundLeftCap: 5,
+    height: 20,
+    width: Ti.UI.SIZE,
+    layout: "horizontal"
+},
+
+"#primaryMetricLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 12
+    },
+    width: Ti.UI.SIZE,
+    height: 12,
+    color: "#f2f2f2",
+    text: "Installs"
+},
+
+"#valueColumnContainer" : {
+    left: 0,
+    width: 60,
+    top: 30,
+    height: Ti.UI.FILL
+},
+
+"#valueCeilLbl" : {
+    top: 0,
+    right: 15,
+    textAlign: "right",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 16
+    },
+    text: "0k"
+},
+
+"#valueMidLbl" : {
+    right: 15,
+    textAlign: "right",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 16
+    },
+    text: "0k"
+},
+
+"#valueFloorLbl" : {
+    bottom: 0,
+    right: 15,
+    textAlign: "right",
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-250wt",
+        fontSize: 16
+    },
+    text: "0k"
+},
+
+"#graphContainer" : {
+    top: 30,
+    left: 60,
+    right: 0,
+    height: Ti.UI.FILL
+},
+
+".dayContainer" : {
+    width: 56,
+    height: Ti.UI.FILL,
+    top: 12,
+    bottom: 12
+},
+
+".dayBg" : {
+    backgroundColor: "#383838",
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+".dayLbl" : {
+    color: "#3e3e3e",
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 24
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    top: 20,
+    text: "00",
+    touchEnabled: false
+},
+
+".dayFocusLbl" : {
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 24
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    top: 20,
+    text: "00",
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+".barVertView" : {
+    left: 0,
+    width: 1,
+    backgroundColor: "#404040",
+    touchEnabled: false
+},
+
+".dayPointContainer" : {
+    width: 30,
+    height: 30,
+    touchEnabled: false
+},
+
+".dayPointView" : {
+    width: 20,
+    height: 20
+},
+
+".dayPointFocusView" : {
+    width: 30,
+    height: 30,
+    opacity: 0.0,
+    touchEnabled: false
+},
+
+"#barSelectedView" :{
+    opacity: 0.0,
+    width: 1,
+    top: 12,
+    bottom: 12
+},
+
+"#dayCalloutContainer" : {
+    left: 60,
+    width: 392,
+    height: 48,
+    touchEnabled: false,
+    center: { x:0, y:0 }
+},
+
+"#dayCalloutBarContainer" : {
+    width: 30,
+    height: 30
+},
+
+"#dayCalloutAngleBarContainer" : {
+    width: 25,
+    height: 25
+},
+
+"#dayCalloutAngleBarRotationContainer" : {
+    height: 7,
+    width: 40,
+    backgroundColor: "#333"
+},
+
+"#dayCalloutAngleBar" : {
+    left: 39,
+    height: 1,
+    opacity: 0.0
+},
+
+"#dayCalloutStraightBarContainer" : {
+    height: 7,
+    width: 7,
+    backgroundColor: "#333"
+},
+
+"#dayCalloutStraightBar" : {
+    right: 4,
+    height: 1,
+    opacity: 0.0
+},
+
+"#dayCalloutLblContainer" : {
+    width: Ti.UI.SIZE,
+    height: 48,
+    layout: "horizontal",
+    backgroundImage: 'detail/line-graph-callout-bg.png',
+    backgroundLeftCap: 10,
+    backgroundTopCap: 10,
+    opacity: 0.0,
+    top: 0,
+},
+
+"#dayCalloutLbl" : {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#333",
+    font: {
+        fontFamily: "TitilliumText22L-1wt",
+        fontSize: 24
+    },
+    text: "2.5k"
+},
+
+"#medianBarView" : {
+    left: 0,
+    right: 0,
+    height: 1,
+    touchEnabled: false
+}

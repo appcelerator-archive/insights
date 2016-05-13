@@ -1,0 +1,29 @@
+"#parentView" : {
+    backgroundImage: "/images/detail/bg.png"
+},
+
+"#metricsContainer" : {
+    bottom: 0
+},
+
+"#selectedCategoryContainer" : {
+    right: 0,
+    width: Ti.UI.SIZE,
+    layout: "horizontal"
+},
+
+"#selectedCategoryIconView" : {
+    top: 0,
+    backgroundImage: "/images/detail/metric-category-current-icon-acquisition.png"
+},
+
+"#selectedCategoryLbl" : {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#f2f2f2",
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    text: "Acquisition",
+    includeFontPadding: false // #WORKAROUND, 
+}

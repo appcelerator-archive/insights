@@ -1,0 +1,132 @@
+"#orbsContainer" : {
+    top: 0,
+    layout: "horizontal"
+},
+
+"#orbAcquisitionContainer" : {
+    category: 'acquisition'
+},
+
+"#orbEngagementContainer" : {
+    category: 'engagement'
+},
+
+"#orbQualityContainer" : {
+    category: 'quality'
+},
+
+"#orbRetentionContainer" : {
+    category: 'retention'
+},
+
+".orbView" : {
+    touchEnabled: false
+},
+
+"#weekCompareContainer" : {
+    width: Ti.UI.FILL
+},
+
+/* "#lastWeekLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    color: "#4b4b4b",
+    text: "Last Week",
+    left: 0,
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE
+},
+
+"#thisWeekLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    color: "#089cdf",
+    text: "This Week",
+    right: 0,
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE
+}, */
+
+"#barContainer" : {
+    height: 1,
+    touchEnabled: false
+}
+
+"#lastWeekBarView" : {
+    left: 0,
+    right: 0,
+    height: 1,
+    backgroundColor: "#4b4b4b"
+},
+
+"#thisWeekBarView" : {
+    right: 0,
+    height: 1,
+    backgroundColor: "#089cdf"
+},
+
+"#thisWeekContainer" : {
+    layout: "horizontal",
+    width: Ti.UI.SIZE,
+    bottom: 0
+},
+
+"#primaryMetricContainer" : {
+    backgroundImage: "/images/detail/primary-metric-bg.png",
+    width: Ti.UI.SIZE,
+    layout: "horizontal",
+    touchEnabled: false
+},
+
+"#primaryMetricLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-250wt"
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#f2f2f2",
+    text: "Total Installs",
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#thisWeekTotalLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#f2f2f2",
+    text: "0",
+    touchEnabled: false,
+    includeFontPadding: false // #WORKAROUND
+},
+
+"#dividerLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#4b4b4b",
+    text: "/",
+    touchEnabled: false,
+    includeFontPadding: false // #WORKAROUND
+}
+
+"#percentLbl" : {
+    font: {
+        fontFamily: "TitilliumText22L-1wt"
+    },
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#089cdf",
+    text: "0%",
+    touchEnabled: false,
+    includeFontPadding: false // #WORKAROUND
+},
+
+".spacers" : {
+    touchEnabled: false
+}

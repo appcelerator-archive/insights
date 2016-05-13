@@ -1,0 +1,30 @@
+<Alloy>
+    <View id="parentView">
+        <View id="mapScrollView"> <!-- #ATEMP -->
+            <View id="mapContainer">
+                <View id="map" />
+                <View id="activeSessionsContainer" />
+            </View>
+        </View>
+        <View id="sessionCountContainer">
+            <View id="sessionCountYesterdayDescipBg">
+                <View id="sessionCountYesterdayDescipBgSpacer" />
+                <Label id="sessionCountYesterdayDescipLbl" />
+                <View id="sessionCountYesterdayDescipLblSpacer" />
+            </View>
+            <View id="sessionCountContainerSpacer" />
+            <Label id="sessionCountYesterdayLbl" />
+            <View id="sessionCountContainer01" />
+            <Label id="sessionCountTodayLbl" />
+            <View id="sessionCountTodayLblSpacer" />
+            <View id="sessionCountTodayDescipBg">
+                <View id="sessionCountTodayDescipBgSpacer" />
+                <Label id="sessionCountTodayDescipLbl" />
+                <View id="sessionCountTodayDescipLblSpacer" />
+            </View>
+        </View>
+        <View id="sessionCurrentCountContainer">
+            <Label id="currentSessionCountLbl" />
+        </View>
+    </View>    
+</Alloy>
