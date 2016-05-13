@@ -2,6 +2,10 @@
 
 Archive of Appcelerator Insights. This product is open-source and unsupported, available under the terms of the attached license.
 
+## Known Issues
+* May have issues with newer versions of the Titanium SDK
+* Data queries are EOL against Dashboard and should be moved to Query Builder
+
 ## Overview
 
 Welcome to Appcelerator Insights!  With Appcelerator Insights, you can track user acquisition, engagement, retention and quality metrics for your mobile apps.  The Appcelerator Insights application is aimed for business users as opposed to the Appcelerator Dashboard, which is aimed at technical users.
